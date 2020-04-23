@@ -1,1 +1,2 @@
-let date = 
+let d = new Date();
+

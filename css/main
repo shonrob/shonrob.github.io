@@ -1,6 +1,10 @@
 h1, h2{
     font-family: "Bree Serif";
 }
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
 
 body{
     font-family: "Assistant";
@@ -18,4 +22,5 @@ img{
     margin: 10px;
     border: 3px solid navy;
     width: 200px;
+    height: auto;
 }
