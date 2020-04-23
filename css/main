@@ -1,0 +1,15 @@
+h1, h2{
+    font-family: "Bree Serif";
+}
+body{
+    font-family: "Assistant";
+    font-size: 14px;
+    font-color: black;
+}
+header, footer{
+    background-color: #E8B4BC;
+    font-color: #898989;
+}
+img{
+    float: right;
+}
