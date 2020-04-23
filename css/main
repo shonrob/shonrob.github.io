@@ -5,11 +5,17 @@ body{
     font-family: "Assistant";
     font-size: 14px;
     font-color: black;
+    line-height: 1.5;
 }
 header, footer{
     background-color: #E8B4BC;
     font-color: #898989;
+    text-align: left;
+    padding: 1.5rem;
 }
 img{
     float: right;
+    margin: 10px;
+    border: 1px solid navy;
+
 }
