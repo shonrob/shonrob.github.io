@@ -1,26 +1,46 @@
-h1, h2{
-    font-family: "Bree Serif";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway&family=Satisfy&display=swap');
+h2{
+    font-family: "EB+Garamond";
+}
+h1{
+    font-family: "Satisfy";
 }
 header, main, footer {
     max-width: 700px;
     margin: 0 auto;
 }
 
-body{
-    font-family: "Assistant";
-    font-color: black;
+body {
+    font-family: "Raleway";
+    font-size: 18px;
     line-height: 1.5;
-    text-align: center;
 }
-header, footer{
+header{
     background-color: #E8B4BC;
-    font-color: #898989;
     text-align: left;
+    padding: 15px;
+    border-radius: 15px;
+}
+footer {
+    background-color: #E8B4BC;
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
 }
 img{
-    float: right;
-    margin: 10px;
-    border: 3px solid navy;
-    width: 200px;
+    float:right;
+    position: relative;
+    margin-top: 100px;
+    bottom: 200px; 
+    border: 6px solid #4C5C68;
+    width: 150px;
     height: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px;
+}
+a:hover{
+    background-color: #DCDCDD;
+}
+a:visited{
+    color: #4C5C68;
 }
