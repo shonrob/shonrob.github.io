@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway&family=Satisfy&display=swap');
+h2{
+    font-family: "EB+Garamond";
+    font-size: .5rem;
+}
+h1{
+    font-family: "Satisfy";
+    font-size: 1.5rem; 
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.5;
+}
+header{
+    background-color: #E8B4BC;
+    text-align: left;
+    padding: 15px;
+}
+footer {
+    background-color: #E8B4BC;
+    padding: 8px;
+    text-align: center;
+   
+}
+img{
+    width: 150px;
+    height: auto;
+  
+}
+a:hover{
+    background-color: #DCDCDD;
+}
+a:visited{
+    color: #4C5C68;
+}
