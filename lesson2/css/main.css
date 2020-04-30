@@ -13,9 +13,8 @@ header, footer{
 }
 main{
     max-width: 100%;
-    display: grid;
+    display: block;
     grid-template-columns: 1fr;
-    grid-gap: 50px;
     padding: 10px;
 
 }
@@ -39,17 +38,14 @@ h3 {
 }
 .gabb{
     grid-column: 1;
-    grid-row: 1;
     border: double #424B54;
 }
 .melskitchen{
     grid-column: 2;
-    grid-row: 1;
     border: double #424B54;
 }
 .peloton{
     grid-column: 3;
-    grid-row: 1;
     border: double #424B54;
 }
 img{
