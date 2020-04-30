@@ -1,14 +1,15 @@
 
 body{
     background-color: #D8DDDE;
-    font-family: "Monserrat", serif;
+    font-family: "Monserrat", sans-serif;
 }
-header{
+header, footer{
     align-items: center;
     background-color: #4D243D;
     color: #D8DDDE;
     margin: 0px;
     padding: 2px;
+    font-size: 1.75em;
 }
 main{
     display: grid;
@@ -16,8 +17,9 @@ main{
 
 }
 h1, h2, h3 {
-    font-family: "Martel", sans-serif;
+    font-family: "Martel", serif;
     font-weight: 800;
+    font-size: 1.5em
 
 }
 h1, h2{
@@ -66,5 +68,11 @@ img{
 p {
     text-align: justify;
     padding: 8px;
-    font-size: 18px;
+    font-size: 1em;
 }
+a:link {
+    color: #4D243D;
+  }
+a:visited {
+    color: #424B54;
+  }
