@@ -12,9 +12,10 @@ header, footer{
     font-size: 1.75em;
 }
 main{
+    max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4px;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
     padding: 10px;
 
 }
