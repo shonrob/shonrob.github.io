@@ -1,4 +1,4 @@
-var fulldate = new Date(document.lastModified);
+var fulldate = document.lastModified;
 
 document.getElementById("time").innerHTML = fulldate;
 
