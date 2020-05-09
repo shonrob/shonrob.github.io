@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 nav ul {
     list-style-type: none;
     color: #022B3A;
-    display: flex;
+    display: block;
     text-align: center;
     justify-content: space-evenly;
 }
