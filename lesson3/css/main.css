@@ -83,7 +83,7 @@ nav a:hover {
 }
 .demographic {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     margin:0;
     letter-spacing: normal;
 }
