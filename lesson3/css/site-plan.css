@@ -26,8 +26,8 @@ Fonts are separated by a | */
   --nav-hover-background-color: ;
 }
 .colors {
-    width: 350px;
-    min-width: 150px;
+    width: 100%;
+    min-width: 350px;
     margin: auto;
     text-align: center;
   }
@@ -35,7 +35,6 @@ Fonts are separated by a | */
     background-color:whitesmoke;
   }
   .colors td{
-    width: 75%;
     height: 10em;
   }
   
