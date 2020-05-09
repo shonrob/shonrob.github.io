@@ -1,15 +1,14 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:wght@700&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #7C8483; /*pastel red*/
-  --secondary-color: #022B3A; /*Maize*/
-  --accent1-color: #E0F2E9; /*Medium Turquoise*/
-  --accent2-color: #7B9E87; /*Spanish Gray*/
-  --accent3-color: #8DA7BE; /*Spanish Gray*/
+  --primary-color:#7C8483; 
+  --secondary-color:#022B3A; 
+  --accent1-color:#E0F2E9; 
+  --accent2-color:#7B9E87; 
+  --accent3-color:#8DA7BE; 
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Libre Baskerville";
@@ -21,23 +20,23 @@ Fonts are separated by a | */
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: black;
-  --nav-link-color: #8F9491;
-  --nav-background-color: #FFE66D;
-  --nav-hover-link-color: #FFE66D;
-  --nav-hover-background-color: #4ECDC4;
+  --nav-link-color: ;
+  --nav-background-color: ;
+  --nav-hover-link-color: ;
+  --nav-hover-background-color: ;
 }
 .colors {
-    width: 100%;
-    min-width: 350px;
+    width: 350px;
+    min-width: 150px;
     margin: auto;
     text-align: center;
   }
   .colors th {
-    background-color: #999;
+    background-color:whitesmoke;
   }
   .colors td{
-    width: 25%;
-    height: 3em;
+    width: 75%;
+    height: 10em;
   }
   
   .primary {
@@ -51,4 +50,7 @@ Fonts are separated by a | */
   }
   .accent2{
     background-color: var(--accent2-color);
+  }
+  .accent3{
+    background-color: var(--accent3-color);
   }
