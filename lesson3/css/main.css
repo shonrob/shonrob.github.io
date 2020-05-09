@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
 header, footer{
     background-color:#022B3A;
     display: block;
@@ -12,15 +12,13 @@ header img{
 header h1{
     color: #7C8483; 
 }
-header, footer, h1{
+header, footer{
     text-align: center; 
     padding: 25px; 
     color: #7C8483;  
 }
 body {
     max-width: 100%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
     display: block; 
     margin: 0;
 }
@@ -29,15 +27,26 @@ main {
     padding: 50px;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    color: black;
-    font-size: 25px;
-    font-family: "PT Serif", serif;
+h1{
+    font-family: "PT Serif", "serif";
+    font-style: italic;
+    font-weight: 700;
 }
-nav{
+h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", "serif";
+    font-family: 700;
+}
+p{
+    font-family: "Open Sans", "sans serif"; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black; 
+    margin: 0;
+}
+.navigation{
     background-color: #8DA7BE;
     padding: 5px;
-    line-height: 2em;
+    margin: 0;
     font-size: 1.5em;
 }
 nav ul {
@@ -61,7 +70,7 @@ nav a:hover {
 .girl img{
       width: 150px;
       height: auto;
-      border: 10px solid #7C8483;
+      border: 8px solid #7C8483;
 }
 .girl{
     line-height: 1em;
@@ -70,11 +79,12 @@ nav a:hover {
 .boy img{
     width: 250px;
     height: auto;
+    border: 8px solid #7C8483;
 }
 .demographic {
     display: grid;
     grid-template-columns: 1;
     margin:0;
-    letter-spacing: 2px;
+    letter-spacing: normal;
 }
 
