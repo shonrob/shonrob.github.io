@@ -10,9 +10,12 @@ header img{
     padding: 25px;
 }
 header h1{
-    color: #7C8483 ;
+    color: #7C8483; 
+}
+header, footer, h1{
     text-align: center; 
-    padding: 25px;   
+    padding: 25px; 
+    color: #7C8483;  
 }
 body {
     max-width: 100%;
@@ -44,14 +47,34 @@ nav ul {
     text-align: center;
     justify-content: space-evenly;
 }
-  nav a:link, nav a:visited {
+nav a:link, nav a:visited {
     color:#7C8483;
-  }
-  nav a:hover {
+}
+nav a:hover {
     color: #022B3A ;
     background-color: #7B9E87 ;
-  }
- #logo{
-      width: 500px;
+}
+#logo{
+      width: 300px;
       height: auto;
-  }
+}
+.girl img{
+      width: 150px;
+      height: auto;
+      border: 10px solid #7C8483;
+}
+.girl{
+    line-height: 1em;
+    margin: 0;
+}
+.boy img{
+    width: 250px;
+    height: auto;
+}
+.demographic {
+    display: grid;
+    grid-template-columns: 1;
+    margin:0;
+    letter-spacing: 2px;
+}
+
