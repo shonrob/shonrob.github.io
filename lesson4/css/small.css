@@ -2,24 +2,28 @@
 header, footer{
     background-color:#022B3A;
     color: #7C8483; 
-    padding: .75em;
+    padding: 5px 0;
     margin: 0;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
+header img{
+    width: 100px;
+    height: auto;
+}
+
 .motto h1 {
     color: #00a99d;
-    text-align: center;
-    margin: 50px 200px 25px 10px;
+    font-size: 1.6rem;
+    padding: 0 0 0 17px;
 }
 .motto h3 {
     color: #7C8483;
-    text-align: left;
-    margin: 0;
+    
 }
-}
-header img {
-    float: left;
-    margin: 0;
+
+
 }
 body {
     max-width: 100%;
