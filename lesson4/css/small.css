@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
 header, footer{
     background-color:#022B3A;
-    display: block;
+    color: #7C8483; 
+    padding: .75em;
     margin: 0;
-    text-align: center; 
-    padding: 25px; 
-    color: #7C8483; 
+    display: block;
 }
-header h1, p{
-    color: #7C8483; 
+.motto h1 {
+    color: #00a99d;
+    text-align: center;
+    margin: 50px 200px 25px 10px;
+}
+.motto h3 {
+    color: #7C8483;
+    text-align: left;
+    margin: 0;
+}
 }
 header img {
     float: left;
-    padding: 25px;
     margin: 0;
-    width: auto;
 }
 body {
     max-width: 100%;
-    display: block; 
-    margin: 0;
     background-color: #8DA7BE;
-    padding: 50px;
 }
 main {
     background-color: #E0F2E9;
@@ -43,23 +45,39 @@ p{
 h1, h2, h3, h4, h5, h6 {
     color: #022B3A; 
 }
-.navigation{
+nav{
     background-color: #8DA7BE;
-    padding: 5px;
-    margin: 0;
     font-size: 1.5em;
 }
 nav ul {
     list-style-type: none;
     color: #022B3A;
-    display: block;
-    text-align: center;
-    justify-content: space-evenly;
+    padding:0;
+    margin: 0;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #E0F2E9;
+
 }
 nav a:link, nav a:visited {
     color: #022B3A;
 }
 nav a:hover {
     color: #022B3A ;
-    background-color: #7B9E87 ;
+    background-color: #00a99d;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid;
+   
+}
+nav ul li .active{
+    background-color: #00a99d, -.4;
+    color: white;
 }
