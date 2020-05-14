@@ -81,3 +81,12 @@ nav ul li .active{
     background-color: #00a99d, -.4;
     color: white;
 }
+nav ul.hide{
+    display:none;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

@@ -6,9 +6,11 @@
         
         <title>Preston, Idaho Weather Site</title>
         <meta name="description" content="lesson 4 assignment to build the foundation of the Preston, Idaho website in WDD 230-BYU-I">
+        <link rel="stylesheet" href="css/normalize.css"
         <link rel="stylesheet" href="css/large.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/small.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="motto">
@@ -17,9 +19,9 @@
             <h3>Forecasting the weather 24-7. We have you covered</h3>
             
         </header>
-        <nav>
-            <button>&#9776;</button>
-            <ul>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="menuButton" class="hide">
                 <li><a href="#">Home</a></li>
                 <li class="active"><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -45,6 +47,6 @@
         <footer>
             <p> &copy; 2020 | Shonda Robinson | Pennsylvania | BYU I Online Learning</p> 
         </footer>
-        <script src=""></script>
+        <script src="javascript/hamButton.js"></script>
     </body>
 </html>
