@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+header, footer{
+    background-color:#022B3A;
+    display: block;
+    margin: 0;
+    text-align: center; 
+    padding: 25px; 
+    color: #7C8483; 
+}
+header h1, p{
+    color: #7C8483; 
+}
+header img {
+    float: left;
+    padding: 25px;
+    margin: 0;
+    width: auto;
+}
+body {
+    max-width: 100%;
+    display: block; 
+    margin: 0;
+    background-color: #8DA7BE;
+    padding: 50px;
+}
+main {
+    background-color: #E0F2E9;
+    padding: 50px;
+    margin: 0;
+}
+h1{
+    font-family: "PT Serif", "serif";
+    font-style: italic;
+    font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", "serif";
+    font-weight: 700;
+}
+p{
+    font-family: "Open Sans", "sans serif"; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #022B3A; 
+}
+.navigation{
+    background-color: #8DA7BE;
+    padding: 5px;
+    margin: 0;
+    font-size: 1.5em;
+}
+nav ul {
+    list-style-type: none;
+    color: #022B3A;
+    display: block;
+    text-align: center;
+    justify-content: space-evenly;
+}
+nav a:link, nav a:visited {
+    color: #022B3A;
+}
+nav a:hover {
+    color: #022B3A ;
+    background-color: #7B9E87 ;
+}

@@ -3,6 +3,9 @@ header, footer{
     background-color:#022B3A;
     display: block;
     margin: 0;
+    text-align: center; 
+    padding: 25px; 
+    color: #7C8483; 
 }
 header img{
     width: 150px;
@@ -12,11 +15,7 @@ header img{
 header h1{
     color: #7C8483; 
 }
-header, footer{
-    text-align: center; 
-    padding: 25px; 
-    color: #7C8483;  
-}
+
 body {
     max-width: 100%;
     display: block; 
