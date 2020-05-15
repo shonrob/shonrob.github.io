@@ -6,25 +6,23 @@ header, footer{
     margin: 0;
     display: flex;
     align-items: center;
-    justify-items: center;
-}
-header img{
-    width: 100px;
-    height: auto;
+    justify-content: center;  
 }
 
+header img{
+    width: 150px;
+    height: auto;
+}
 .motto h1 {
     color: #00a99d;
     font-size: 1.6rem;
-    padding: 0 0 0 17px;
+    padding: 0;
 }
 .motto h3 {
     color: #7C8483;
-    
+    padding: 0 0 0 15px; 
 }
 
-
-}
 body {
     max-width: 100%;
     background-color: #8DA7BE;
@@ -52,12 +50,15 @@ h1, h2, h3, h4, h5, h6 {
 nav{
     background-color: #8DA7BE;
     font-size: 1.5em;
+
 }
 nav ul {
     list-style-type: none;
     color: #022B3A;
     padding:0;
     margin: 0;
+    text-align: center;
+    justify-content: space-evenly;
 }
 nav button{
     margin: .2rem 2%;
@@ -87,6 +88,12 @@ nav ul li .active{
 }
 nav ul.hide{
     display:none;
+}
+.contentBox{
+    background-color: #8DA7BE ;
+    border: 2px dotted #022B3A;
+    padding: 10px;
+    margin: 10px 0;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
