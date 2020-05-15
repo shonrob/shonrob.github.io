@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
-header, footer{
+header{
     background-color:#022B3A;
     color: #7C8483; 
     padding: 5px 0;
@@ -7,6 +7,15 @@ header, footer{
     display: flex;
     align-items: center;
     justify-content: center;  
+}
+footer{
+    background-color:#022B3A;
+    color: #7C8483; 
+    padding: 5px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
 }
 
 header img{
@@ -58,7 +67,7 @@ nav ul {
     padding:0;
     margin: 0;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 nav button{
     margin: .2rem 2%;

@@ -1,3 +1,3 @@
-var fulldate = newDate(document.lastModified);
+var fulldate = new Date(document.lastModified);
 
-document.getElementById("time").innerHTML = fulldate;
+document.getElementById("time").textContent = fulldate;

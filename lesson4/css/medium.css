@@ -2,21 +2,20 @@
 @media only screen and (min-width: 35rem) {
 
      
+    
     nav button{ 
         display: none;
     }
     nav ul.hide {
-        display: block;
+        display: flex;
     }
     nav ul {
         margin-left: 2%;
     }
-    nav ul li {
-        float: left;
-    }
+    
     nav ul li a{
         border:none;
         border-right: 1px solid;
-        padding: .4rem 1rem;
+        padding: .6rem 1rem;
     }
 } /*end medium */
