@@ -103,6 +103,19 @@ nav ul.hide{
     padding: 10px;
     margin: 10px 0;
 }
+#homePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+#homePic2 {
+    width: 400px;
+}
+
+#mapPic {
+    width: 200px;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
