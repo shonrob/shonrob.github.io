@@ -97,9 +97,10 @@ nav ul li .active{
 nav ul.hide{
     display:none;
 }
+
 .heroDiv {
-   
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 960px;
 
 }
@@ -118,8 +119,11 @@ nav ul.hide{
 .heroMain {
     position: relative;
     margin: 10px auto;
-    border: 50px #7C8483;
     width: 100%;
+}
+.box{
+  
+   
 }
 
 .weekBox th{
@@ -128,9 +132,11 @@ nav ul.hide{
 }
 .weekBox table, th, td {
     border: 2px solid #022B3A;
-    border-collapse: collapse;
     padding: 10px;
     margin: 10px;
+  }
+  .weekBox table {
+    border-collapse: collapse;
   }
   
 
@@ -142,7 +148,7 @@ nav ul.hide{
     display: absolute;
 }
 .article {
-    display: relative;
+    
 
 }
 #mapPic {
