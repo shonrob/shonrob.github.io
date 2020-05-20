@@ -120,13 +120,30 @@ nav ul.hide{
     border: 50px #7C8483;
     width: 100%;
 }
+
+.days th{
+    background-color: #022B3A;
+    color: #E0E6E6;
+}
+.weekBox table, th, td {
+    border: 2px solid #022B3A;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+
 .homePic {
     border: 2px solid #022B3A
 }
 #homePic2 {
-    width: 400px;
+    width: 350px;
+    display: absolute;
 }
+.article {
+    display: relative;
 
+}
 #mapPic {
     width: 200px;
 }
