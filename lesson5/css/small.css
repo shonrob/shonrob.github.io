@@ -97,17 +97,31 @@ nav ul li .active{
 nav ul.hide{
     display:none;
 }
-.contentBox{
-    background-color: #8DA7BE ;
-    border: 2px dotted #022B3A;
-    padding: 10px;
-    margin: 10px 0;
+.heroDiv {
+    position: relative;
+    margin: 10px auto;
+    width: 960px;
+
 }
-#homePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
+
+.weatherSummary{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background: radial-gradient(#7C8483, #E0E6E6);
+    opacity: .65;
+    box-shadow: 2px 5px;
+    padding: 10px;
+    border: 2px solid #022B3A;
+}
+
+.heroMain {
+    margin: 10px auto;
+    border: 50px #7C8483;
+    width: 100%;
+}
+.homePic {
+    border: 2px solid #022B3A
 }
 #homePic2 {
     width: 400px;
