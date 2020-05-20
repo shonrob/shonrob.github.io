@@ -98,8 +98,8 @@ nav ul.hide{
     display:none;
 }
 .heroDiv {
-    position: relative;
-    margin: 10px auto;
+   
+    margin: auto;
     width: 960px;
 
 }
@@ -116,12 +116,13 @@ nav ul.hide{
 }
 
 .heroMain {
+    position: relative;
     margin: 10px auto;
     border: 50px #7C8483;
     width: 100%;
 }
 
-.days th{
+.weekBox th{
     background-color: #022B3A;
     color: #E0E6E6;
 }
