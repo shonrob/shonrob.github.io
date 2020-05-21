@@ -32,12 +32,10 @@ header img{
 }
 
 body {
-    max-width: 100%;
     background-color: #8DA7BE;
 }
 main {
     background-color: #E0F2E9;
-    padding: 50px;
     margin: 0;
 }
 h1{
@@ -54,6 +52,7 @@ p{
 }
 h1, h2, h3, h4, h5, h6 {
     color: #022B3A; 
+    text-align: center;
 }
 nav{
     background-color: #8DA7BE;
@@ -101,7 +100,11 @@ nav ul.hide{
 .heroDiv {
     margin-left: auto;
     margin-right: auto;
-    width: 960px;
+    padding: 10px'
+}
+.heroDiv img{
+    width: 100%;
+    border: 2px solid #022B3A;
 
 }
 
@@ -119,11 +122,10 @@ nav ul.hide{
 .heroMain {
     position: relative;
     margin: 10px auto;
-    width: 100%;
 }
  
 
-.weekBox h3 {
+.weekBox h2 {
     text-align: center;
 }
 
@@ -141,10 +143,7 @@ nav ul.hide{
 .weekBox table{
     border-collapse: collapse;
 }
-  
-.homePic {
-    border: 2px solid #022B3A
-}
+
 #homePic2 {
     width: 350px;
     float: right;
