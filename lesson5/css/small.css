@@ -46,6 +46,9 @@ h1{
 h2, h3, h4, h5, h6 {
     font-family: "PT Serif", "serif";
     font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
 }
 p{
     font-family: "Open Sans", "sans serif"; 
@@ -123,21 +126,24 @@ nav ul.hide{
     position: relative;
     margin: 10px auto;
 }
- 
-
-.weekBox h2 {
-    text-align: center;
-}
+ .weekBox{
+     background-color: #00a99d;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     justify-items: center;
+ }
 
 .weekBox th{
     background-color: #022B3A;
     color: #E0E6E6;
     border-collapse: collapse;
 }
-.weekBox table, th, td {
+.weekBox table, td {
     border: 2px solid #022B3A;
     padding: 10px;
     margin: 10px;
+    background-color: #E0E6E6;
     
   }
 .weekBox table{
@@ -145,8 +151,14 @@ nav ul.hide{
 }
 
 #homePic2 {
-    width: 350px;
+    width: 275px;
     float: right;
+}
+.mapBox{
+    background-color: #8DA7BE;
+    display: flex;
+    flex-flow: column;
+
 }
 
 #mapPic {
