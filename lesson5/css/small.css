@@ -120,13 +120,17 @@ nav ul.hide{
 
 .weatherSummary{
     position: absolute;
-    top: 20px;
-    left: 50px;
+    top: 5px;
+    left: 10px;
     background: radial-gradient(#7C8483, #E0E6E6);
     opacity: .65;
     box-shadow: 2px 5px;
     padding: 10px;
     border: 2px solid #022B3A;
+}
+.weatherSummary p{
+    margin:0;
+
 }
 
 .heroMain {
@@ -135,8 +139,7 @@ nav ul.hide{
 }
  .weekBox{
      background-color: #00a99d;
-     display: flex;
-     flex-flow: column;
+     display: none;
      
  }
 
@@ -165,6 +168,14 @@ nav ul.hide{
     display: grid;
     grid-template-columns: 1fr;
    
+}
+.map{
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid #022B3A;
+    padding: 5px;
+
+    background-color: #7C8483;
 }
 .mapBox p{
     margin: 0px;
