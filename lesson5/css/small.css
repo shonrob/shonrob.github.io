@@ -102,6 +102,9 @@ nav ul.hide{
 #banner{
     background-color: #7C8483;
     color: #E0F2E9;
+    padding: 5px;
+    text-align: center;
+    display: none;
 }
 
 .heroDiv {
@@ -134,8 +137,7 @@ nav ul.hide{
      background-color: #00a99d;
      display: flex;
      flex-flow: column;
-     justify-content: center;
-     justify-items: center;
+     
  }
 
 .weekBox th{
@@ -160,17 +162,22 @@ nav ul.hide{
 }
 .mapBox{
     background-color: #8DA7BE;
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+.mapBox p{
+    margin: 0px;
 }
 .article{
     padding: 20px;
     margin:0;
 }
-
-#mapPic {
-    width: 200px;
+.socialMedia img{
+    width: 30px;
 }
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

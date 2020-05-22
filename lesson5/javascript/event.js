@@ -4,7 +4,7 @@ const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
  
 const banner = document.getElementById("event");
 
-if(d.getDay() == "Friday") {
+if(d.getDay() == "Thursday") {
      banner.style.display = "block";
  }
  else {
