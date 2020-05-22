@@ -165,8 +165,8 @@ nav ul.hide{
 }
 .mapBox{
     background-color: #8DA7BE;
-    display: grid;
-    grid-template-columns: 1fr;
+    
+
    
 }
 .map{
@@ -174,12 +174,13 @@ nav ul.hide{
     margin: 0 auto;
     border: 1px solid #022B3A;
     padding: 5px;
-
     background-color: #7C8483;
+    
 }
 .mapBox p{
     margin: 0px;
 }
+
 .article{
     padding: 20px;
     margin:0;
@@ -187,7 +188,12 @@ nav ul.hide{
 .socialMedia img{
     width: 30px;
 }
-
+.info p{
+    padding: 5px;
+}
+.info img{
+    padding: 10px;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

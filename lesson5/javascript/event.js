@@ -1,10 +1,8 @@
 var d = new Date();
-var day = d.getDate();
-const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
  
-const banner = document.getElementById("event");
+const banner = document.getElementById("banner");
 
-if(d.getDay() == "Thursday") {
+if(d.getDay() == 5) {
      banner.style.display = "block";
  }
  else {
