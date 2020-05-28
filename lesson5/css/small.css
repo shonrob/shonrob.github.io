@@ -92,13 +92,15 @@ nav ul li a {
     border-top: 1px solid;
    
 }
-nav ul li .active{
+nav .active a{
     background-color: #00a99d;
     color: white;
 }
 nav ul.hide{
     display:none;
 }
+
+
 #banner{
     background-color: #7C8483;
     color: #E0F2E9;
