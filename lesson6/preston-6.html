@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Preston, Idaho Weather Site</title>
+        <meta name="description" content="lesson 4 assignment to build the foundation of the Preston, Idaho website in WDD 230-BYU-I">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="motto">
+            <img src="images/weatherlogo.png" alt="weather logo">
+            <section>
+                <h1>Forecasting Your Weather</h1>
+                    <div>
+                        <h3>Accurate Weather 24-7</h3>
+                     </div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="menuButton" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <aside id="banner">
+                <p>Saturday: Preston pancakes in the Park!! 9:00 AM, Saturday at the City Park Pavillion.  See you there!</p>
+            </aside>
+            <div class="heroDiv">
+                <div class="heroMain">
+                    <picture class="newPhoto">
+                            <source media="(max-width: 200px)" srcset=""
+                    </picture>
+                    <!--<img src="images/summer-1528200_1280.jpg" alt="community picture"> -->
+                    <section class="weatherSummary">
+                        <h3> Weather Summary</h3>
+                            <p>Currently: Sunny</p>
+                            <p>High: 73&#176; F </p>
+                            <p>Wind Chill: 5&#176; F</p>
+                            <p>Humidty: 54%</p>
+                            <p>Wind Speed: 6 mph</p>
+                    </section>  
+                </div>
+            </div>
+            <div class="weekBox">
+                <h2>5 Day Forecast</h2>
+                    <table>
+                        <tr>
+                            <th >Monday</th>
+                            <th >Tuesday</th>
+                            <th >Wednesday</th>
+                            <th >Thursday</th>
+                            <th >Friday</th>
+                        </tr>
+                        <tr>
+                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
+                            <td> <img src="images/iconfinder_Gnome-Weather-Few-Clouds-48_55481.png" alt="cloudy weather"> <p>68&#176;F</p> </td>
+                            <td> <img src="images/iconfinder_Gnome-Weather-Showers-48_55485.png" alt="Showers weather"> <p>68&#176;F</p> </td>
+                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
+                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="article">
+                <h2>Article</h2>
+                <img id="homePic2" src="images/carolina-marinelli-Vd1JgLoS1Qg-unsplash2.jpg" alt="relaxing on blanket">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+            </div>
+            <div class="mapBox">
+                <h2>Information</h2>
+                <section class="info">
+                    <h3>Forecasting Your Weather</h3>
+                    <p>30 North 1st East </p>
+                    <p>Preston, Idaho 83263</p>
+                    <p> &#9742; 000-000-0000</p>
+                    <p> &#9993; forecastingyourweather247.com</p>
+                    <div class="socialMedia">
+                        <a href="https://www.facebook.com" target="blank"> <img src="images/iconfinder_1_Facebook2_colored_svg_5296500.svg" alt="facebook icon"></a>
+                        <a href="https://www.instagram.com" target="blank"> <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.svg" alt="instagram icon"></a>
+                        <a href="https://www.pinterest.com" target="blank"> <img src="images/iconfinder_1_Pinterest_colored_svg_5296503.svg" alt="pinterest icon"></a>
+                        <a href="https://www.youtube.com" target="blank"> <img src="images/iconfinder_1_Youtube_colored_svg_5296521.svg" alt="youtube icon"></a>
+                    </div>
+                </section>
+                <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688276.7039237483!2d-111.87846799118837!3d42.32486603056848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590107970184!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p> &copy; 2020 | Shonda Robinson | Pennsylvania | BYU I Online Learning</p> 
+            <p> <span id="currentDate"></span> </p>
+        </footer> 
+        <script src="javascript/hamButton.js"></script>
+        <script src="javascript/currentdate.js"></script>
+        <script src="javascript/event.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script> WebFont.load({
+            google: {
+              families: ["PT Serif", "Open Sans"]
+            }
+          });</script>
+    </body>
+</html>
