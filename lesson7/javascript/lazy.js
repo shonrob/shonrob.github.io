@@ -1,0 +1,1 @@
+const images = document.querySelectorAll("[data=src]");
