@@ -5,10 +5,11 @@ div{
 }
 img {
     margin: 100px;
-
+    border: 5px solid #62A8AC;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
-imgOptions {
+img[data-src] {
     filter: blur(.2em);
-
 }
