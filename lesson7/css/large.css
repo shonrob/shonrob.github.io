@@ -1,0 +1,28 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    
+    nav button{ 
+        display: none;
+    }
+   
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a{
+        border:none;
+        padding: .6rem 1rem;
+    }
+       
+    .weekBox{
+        background-color: #00a99d;
+        display: flex;
+        flex-flow: column;
+        
+    }
+   
+        
+} /*end large */

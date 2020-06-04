@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Southen Idaho Weather Site</title>
+        <meta name="description" content="lesson 4 assignment to build the foundation of the Preston, Idaho website in WDD 230-BYU-I">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="motto">
+            <img src="images/weatherlogo.png" alt="weather logo">
+            <section>
+                <h1>Forecasting Your Weather</h1>
+                    <div>
+                        <h3>Accurate Weather 24-7</h3>
+                     </div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="menuButton" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="gal"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Weather Gallery</h2>
+                <div class="weatherGallery">
+            <figure class="sunriseFig">
+                <img src= "images/placeholder.png" data-src="images/sunrise.jpg"  alt = "Sunrise"/>
+                <figcaption>
+                    Good Morning, Sun
+                </figcaption>
+            </figure>
+            <figure class="WindyFig">
+                <img src= "images/placeholder.png" data- src="images/windy.jpg"  alt = "Windy Day"/>
+                <figcaption>
+                    Hold onto your hat, it's going to get windy
+                </figcaption>
+            </figure>
+            <figure class="thunderstormFig">
+                <img src= "images/placeholder.png" data-src="images/thunderstorm.jpg"  alt = "Thunderstorm"/>
+                <figcaption>
+                    Severe Thunderstorms
+                </figcaption>
+            </figure>
+            <figure class="autumnFig">
+                <img src= "images/placeholder.png" data-src="images/autumnleaves.jpg"  alt = "Autumn"/>
+                <figcaption>
+                    Feel that crisp Autumn Day
+                </figcaption>
+            </figure>
+            <figure class="frostyFig">
+                <img src= "images/placeholder.png" data-src="images/frost.jpg"  alt = "Frosty Leaf"/>
+                <figcaption>
+                    First Frost
+                </figcaption>
+            </figure>
+            <figure class="snowstormFig">
+                <img src= "images/placeholder.png" data-src="images/snowstorm.jpg"  alt = "Snowstorm"/>
+                <figcaption>
+                    Welcome to our first snowstorm of the year
+                </figcaption>
+            </figure>
+            <figure class="snowtopFig">
+                <img src= "images/placeholder.png" data-src="images/snowtopmountain.jpg"  alt = "Snowtop Mountain"/>
+                <figcaption>
+                    Good bye winter, Hello Spring
+                 </figcaption>
+             </figure>
+             <figure>
+                <img src= "images/placeholder.png" src="images/rain.jpg"  alt = "Rain Puddle"/>
+                <figcaption>
+                    Don't forget your umbrella
+                </figcaption>
+            </figure>
+             <figure>
+                <img src= "images/placeholder.png" data-src="images/rainbow.jpg"  alt = "Rainbow"/>
+                <figcaption>
+                    Ride the storm to enjoy the rainbow
+                </figcaption>
+            </figure> 
+            </div>   
+        </main>
+        <footer>
+            <p> &copy; 2020 | Shonda Robinson | Pennsylvania | BYU I Online Learning</p> 
+            <p> <span id="currentDate"></span> </p>
+        </footer> 
+        <script src="javascript/hamButton.js"></script>
+        <script src="javascript/currentdate.js"></script>
+        <script src="javascript/event.js"></script>
+        <script src="javascript/windchill.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script> WebFont.load({
+            google: {
+              families: ["PT Serif", "Open Sans"]
+            }
+          });</script>
+    </body>
+</html>
