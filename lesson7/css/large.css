@@ -32,6 +32,8 @@
    figure {
        margin: 0;
    }
-   
+   figure img:hover{
+    box-shadow: 2px 3px 30px grey;
+}
         
 } /*end large */

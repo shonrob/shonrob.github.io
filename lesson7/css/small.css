@@ -207,9 +207,7 @@ figure {
 figure img{
     border: 2px solid black;
 }
-figure img:hover{
-    box-shadow: 2px 3px 30px grey;
-}
+
 
 figcaption{
     color: #022B3A;
