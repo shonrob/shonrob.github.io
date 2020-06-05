@@ -203,11 +203,10 @@ nav ul.hide{
 figure {
     margin: 0;
     border: 10px solid white;
+    text-align: center;
     
 }
-figure img{
-    border: 2px solid black;
-}
+
 
 
 figcaption{
