@@ -145,7 +145,6 @@ nav ul.hide{
  .weekBox{
      background-color: #00a99d;
      display: none;
-     
  }
 
 .weekBox th{
@@ -201,6 +200,26 @@ nav ul.hide{
 }
 .info img{
     padding: 10px;
+}
+ /* Weather Gallery*/
+
+figure {
+    margin: 0;
+    
+}
+figure img{
+    border: 2px solid black;
+}
+figure img:hover{
+    box-shadow: 2px 3px 30px grey;
+}
+
+figcaption{
+    color: #022B3A;
+    font-family: "Open Sans"; 
+    text-align: center;
+    padding: 0 0 10px 0;
+
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

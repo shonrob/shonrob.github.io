@@ -23,6 +23,15 @@
         flex-flow: column;
         
     }
+   .weatherGallery {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       justify-items: center;
+   }
+   figure {
+       margin: 0;
+   }
    
         
 } /*end large */
