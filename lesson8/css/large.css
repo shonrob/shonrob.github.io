@@ -1,0 +1,41 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+   /* nav- all pages */  
+    nav button{ 
+        display: none;
+    }
+   
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a{
+        border:none;
+        padding: .6rem 1rem;
+    }
+      /* PRESTON PAGE */   
+    .weekBox{
+        background-color: #00a99d;
+        display: flex;
+        flex-flow: column;
+        
+    }
+     /* GAllERY PAGE */ 
+   .weatherGallery {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+       justify-items: center;
+       grid-gap: 15px;
+   }
+   figure {
+       margin: 0;
+   }
+   figure:hover{
+    box-shadow: 2px 3px 30px grey;
+}
+        
+} /*end large */

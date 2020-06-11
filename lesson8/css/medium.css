@@ -1,0 +1,64 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+ /* NAV- ALL PAGES */ 
+    nav button{ 
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    nav ul {
+        margin-left: 2%;
+        justify-content: space-around;
+    }
+    
+    nav ul li a{
+        border:none;
+        padding: .6rem 1rem;
+    }
+     /* PRESTON PAGE */ 
+    .weatherSummary{
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        background: radial-gradient(#7C8483, #E0E6E6);
+        opacity: .65;
+        box-shadow: 2px 5px;
+        padding: 10px;
+        border: 2px solid #022B3A;
+    }
+    .weekBox{
+        background-color: #00a99d;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        
+    }
+    .mapBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .map {
+        grid-column: 1; 
+        grid-row: 2; 
+    }
+    .mapBox h2 {
+        grid-column: 1 / 3;
+    }
+    .info{
+        justify-self: center;
+        grid-column: 2;
+    }
+     /* GALLERY PAGE */ 
+    .weatherGallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    figure {
+        margin: 0;
+        
+    }
+} /*end medium */
