@@ -1,6 +1,7 @@
 body{
-    font-family: "Ubuntu", "sans-serif";
+    font-family: "Ubuntu", sans-serif;
     color: black;
+    font-size: 1em;
 }
 thead th, tfoot td {
     background-color: #7fb9c2;
@@ -20,6 +21,7 @@ td{
 table{
     border: 1px solid #d7e0dd;
     text-align: center;
+    box-shadow: 8px 10px 9px #628ca6;
 }
 table tr:nth-child(even){
     background-color: #e7f0ed;
@@ -30,4 +32,7 @@ table tr:nth-child(odd){
 #big {
     background-color: #628ca6;
     color: white; 
+}
+tfoot td {
+    font-size: .75em;
 }
