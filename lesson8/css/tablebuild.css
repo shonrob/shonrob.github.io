@@ -1,0 +1,33 @@
+body{
+    font-family: "Ubuntu", "sans-serif";
+    color: black;
+}
+thead th, tfoot td {
+    background-color: #7fb9c2;
+    color: black;
+}
+
+th{
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+    table-layout: fixed;
+    padding: 5px;
+}
+td{
+    padding: 3px;
+}
+table{
+    border: 1px solid #d7e0dd;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: #e7f0ed;
+}
+table tr:nth-child(odd){
+    background-color: #e7ffed;
+}
+#big {
+    background-color: #628ca6;
+    color: white; 
+}
