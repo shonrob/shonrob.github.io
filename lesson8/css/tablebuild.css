@@ -3,6 +3,9 @@ body{
     color: black;
     font-size: 1em;
 }
+main{
+
+}
 thead th, tfoot td {
     background-color: #7fb9c2;
     color: black;
@@ -19,6 +22,10 @@ td{
     padding: 3px;
 }
 table{
+    width: 250px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #d7e0dd;
     text-align: center;
     box-shadow: 8px 10px 9px #628ca6;
@@ -35,4 +42,7 @@ table tr:nth-child(odd){
 }
 tfoot td {
     font-size: .75em;
+}
+thead th{
+    font-size: 1.5em;
 }
