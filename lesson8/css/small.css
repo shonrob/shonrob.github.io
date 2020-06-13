@@ -255,7 +255,7 @@ label{
     border-radius: 10px; 
 }
 select, input :not(.danger){
-    width: 100%;       
+        
     border-radius:6px;
     padding:2.5px;
 }
