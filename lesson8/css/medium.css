@@ -61,4 +61,10 @@
         margin: 0;
         
     }
+
+    form fieldset{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 } /*end medium */

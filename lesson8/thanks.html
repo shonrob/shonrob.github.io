@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Southen Idaho Weather Site</title>
+        <meta name="description" content="lesson 4 assignment to build the foundation of the Preston, Idaho website in WDD 230-BYU-I">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="motto">
+            <img src="images/weatherlogo.png" alt="weather logo">
+            <section>
+                <h1>Forecasting Your Weather</h1>
+                    <div>
+                        <h3>Accurate Weather 24-7</h3>
+                     </div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="menuButton" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="../lesson5/preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="graditude">
+           <p>We appreciate your time and reporting this storm report.  Thank you for helping us serve you better.</p>
+        </main>
+        <footer>
+            <p> &copy; 2020 | Shonda Robinson | Pennsylvania | BYU I Online Learning</p> 
+            <p> <span id="currentDate"></span> </p>
+        </footer> 
+        <script src="javascript/hamButton.js"></script>
+        <script src="javascript/currentdate.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script> WebFont.load({
+            google: {
+              families: ["PT Serif", "Open Sans"]
+            }
+          });</script>
+    </body>
+</html>

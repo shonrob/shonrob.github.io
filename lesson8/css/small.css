@@ -220,9 +220,10 @@ figcaption{
 }
 /* Storm Center*/
 
+
 form fieldset{
     width: 400px;
-    display: grid;
+    display: grid; 
     grid-template-columns: auto;
     grid-gap: 10px;
     margin: 20px;
@@ -240,8 +241,6 @@ form legend{
 label{
    padding-top: 10px;
    font-size: 1.25em;
-
-
 }
 .contact{
     padding: .5rem;
@@ -254,17 +253,44 @@ label{
 .additionalComments{
     padding: .5rem;
     border-radius: 10px; 
-  
 }
-
-input, select{
-    width: 100%;
+select, input :not(.danger){
+    width: 100%;       
     border-radius:6px;
     padding:2.5px;
 }
 #comments{
-    height: 200px;
+    width: 100%;
 }
+.submitButton{
+    width: 60%;
+    background-color: #00a99d;
+    color: #E0E6E6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+form label.top input:required {
+    border-left: yellow;
+}
+form label.top input:required:valid {
+    /*background: url("/images/check.svg") no-repeat 95% 50%;
+    background-size: 25px;*/
+    border-left: green;
+  }
+
+  /* Thanks.html page */
+  .graditude {
+      margin: 20px;
+      padding: 10px;
+      font: 1em;
+      text-align: center;
+
+    
+  }
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
