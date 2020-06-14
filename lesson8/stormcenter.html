@@ -39,21 +39,21 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend class="contact">Contact Information</legend>
-                        <label class="top" for="fullName">Full Name*</label>
-                            <input  type="text" id="fName" name="fullName" placeholder="Will Power" pattern="[A-Za-z]{5}*" required>
-                        <label for="email">Email</label>
-                            <input type="text" id="eMail" name="email" placeholder="user@email.com">
-                        <label class="top" for="phoneNumber">Phone Number*</label>
-                            <input type="tel" id="telePhone" name="phone" placeholder="###-###-####" required>
-                        <label class="top" for="zipcode">Zipcode*</label>
-                            <input type="number" id="zipCode" name="zipcode" placeholder="#####" required>
+                        <label class="top">Full Name*
+                            <input   type="text"  name="fullName" placeholder="Will Power" pattern="[A-Za-z]{5}*" required></label>
+                        <label class="top">Email
+                            <input type="email"  name="email" placeholder="user@email.com" minlength="3" maxlength="64" required></label>
+                        <label class="top" >Phone Number*
+                            <input type="tel"  name="phone" placeholder="###-###-####" required></label>
+                        <label class="top" for="zipcode">Zipcode*
+                            <input type="number" id="zipCode" name="zipcode" placeholder="#####" required></label>
                 </fieldset>
                 <fieldset>
                     <legend class="storm">Storm Details</legend>
-                        <label for="stormdate">Today's Date</label>
-                            <input type="date" id="stormDate" name="stormdate" value="2020-06-11" min="2020-01-01" max="3000-01-01">
-                        <label for="storm">Storm Type</label>
-                            <input list="storms" id="stormType" name="storm">
+                        <label class="top" >Today's Date
+                            <input type="date"  name="stormdate" value="2020-06-11" min="2020-01-01" max="3000-01-01"></label>
+                        <label class="top">Storm Type
+                            <input list="storms"  name="storm"></label>
                                 <datalist id="storms">
                                     <option value="Flash Flood">
                                     <option value="Hail">
@@ -61,8 +61,11 @@
                                     <option value="Thunder Storm">
                                     <option value="Tornado">
                                 </datalist>
-                        <label for="stormSeverity">Storm Severity (1-10)</label>
-                            <input type="range" id="stormSeverity" list="tickmarks" min="1" max="10" step="1">
+                         <label class="top" class="stormy" for="storming">Storm Severity
+                             <input id="stormSeverity" class="stormy" type="range" min="1" max="10">
+                             <span id="ratingvalue">1</span>
+                         </label>       
+                    
                                 <datalist id="tickmarks">
                                     <option value="0"></option>
                                     <option value="1"></option>
@@ -76,9 +79,9 @@
                                     <option value="9"></option>
                                     <option value="10"></option>
                                 </datalist>
-                        <label for="stormRegion">Storm Region</label>
-                            <select id="area">
-                                <option value=""> Select Region </option>
+                        <label class="top">Storm Region
+                            <select></label>
+                                <option value=""disabled selected>Select Region</option>
                                 <option value="Preston"> Preston </option>
                                 <option value="Soda Springs"> Soda Springs </option>
                                 <option value="Fish Haven"> Fish Haven </option>

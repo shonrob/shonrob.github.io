@@ -237,6 +237,7 @@ form legend{
     color: #E0E6E6;
     padding: 0 .5rem;
     margin: 0 1rem;
+    font-size: 2rem;
 }
 label{
    padding-top: 10px;
@@ -254,10 +255,15 @@ label{
     padding: .5rem;
     border-radius: 10px; 
 }
-select, input :not(.danger){
-        
+.top select, 
+.top input {
+    display:block; 
     border-radius:6px;
-    padding:2.5px;
+    padding: .75rem;
+    width: 60%;
+}
+.danger p{
+    margin:0;
 }
 #comments{
     width: 100%;
@@ -272,14 +278,24 @@ select, input :not(.danger){
     padding: 10px;
 }
 
-form label.top input:required {
-    border-left: yellow;
+.top input:required {
+    background-color: #f7f7b2dc;
+    border: 4px solid yellow;
 }
-form label.top input:required:valid {
-    /*background: url("/images/check.svg") no-repeat 95% 50%;
-    background-size: 25px;*/
-    border-left: green;
+.top input:required:valid {
+    border: 4px solid #00a99d;
   }
+input[type=email]:valid {
+    border: 4px solid #00a99d;
+}
+.stormy {
+	display: flex;
+	align-items: center;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
 
   /* Thanks.html page */
   .graditude {
@@ -289,6 +305,9 @@ form label.top input:required:valid {
       text-align: center;
   }
 
+  .range-slider {
+    margin: 60px 0 0 0%;
+  }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
