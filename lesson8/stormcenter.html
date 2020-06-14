@@ -46,12 +46,12 @@
                         <label class="top" >Phone Number*
                             <input type="tel"  name="phone" placeholder="###-###-####" required></label>
                         <label class="top" for="zipcode">Zipcode*
-                            <input type="number" id="zipCode" name="zipcode" placeholder="#####" required></label>
+<input type="number" id="zipCode" name="zipcode" placeholder="#####" required></label>                            
                 </fieldset>
                 <fieldset>
                     <legend class="storm">Storm Details</legend>
                         <label class="top" >Today's Date
-                            <input type="date"  name="stormdate" value="2020-06-11" min="2020-01-01" max="3000-01-01"></label>
+                            <input type="date"  name="stormdate" value="2020-06-11" min="2020-01-01" max="2075-01-01"></label>
                         <label class="top">Storm Type
                             <input list="storms"  name="storm"></label>
                                 <datalist id="storms">
@@ -61,7 +61,7 @@
                                     <option value="Thunder Storm">
                                     <option value="Tornado">
                                 </datalist>
-                         <label class="top" class="stormy" for="storming">Storm Severity
+                         <label class="top" for="storming">Storm Severity
                              <input id="stormSeverity" class="stormy" type="range" min="1" max="10">
                              <span id="ratingvalue">1</span>
                          </label>       
