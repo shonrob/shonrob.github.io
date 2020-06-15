@@ -1,3 +1,4 @@
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+function adjustValue(value)
+{
+    document.getElementById("currentvalue").innerHTML = "Severity: " + value;
 }
