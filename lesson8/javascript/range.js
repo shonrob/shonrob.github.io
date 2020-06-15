@@ -1,4 +1,4 @@
 function adjustValue(value)
 {
-    document.getElementById("currentvalue").innerHTML = "Severity: " + value;
+    document.getElementById("ratingValue").innerHTML = "Severity: " + value;
 }
