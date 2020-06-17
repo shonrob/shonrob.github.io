@@ -22,16 +22,17 @@ fetch(requestURL)
     fullName.textContent = prophets[i].name + ' ' + prophets[i].lastname;
     alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
     image.setAttribute('src', prophets[i].imageurl);
+
     bDay.textContent = "Date of Birth: " +prophets[i].birthdate;
     birth.textContent = "Place of Birth: " +prophets[i].birthplace;
 
     
-
-    card.appendChild(alt);
-    card.appendChild(image);
     card.appendChild(fullName);
+    card.appendChild(alt);
     card.appendChild(bDay);
     card.appendChild(birth);
+    card.appendChild(image);
+    
     
     
     
