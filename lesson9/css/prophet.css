@@ -4,7 +4,7 @@
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center; 
     grid-gap: 5px;
      
@@ -43,15 +43,15 @@ header, footer {
 }
 
 /* Medium View */
-@media only screen and (max-width: 35rem) {
+@media only screen and (max-width: 36rem) {
     .cards {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
 /* Large View */
-@media only screen and (max-width: 64rem) {
+@media only screen and (max-width: 65rem) {
     .cards{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
   }
