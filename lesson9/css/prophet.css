@@ -43,13 +43,15 @@ header, footer {
 }
 
 /* Medium View */
-@media only screen and (max-width: 36rem) {
+
+@media only screen and (max-width: 30rem) {
     .cards {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
 /* Large View */
+
 @media only screen and (max-width: 65rem) {
     .cards{
         grid-template-columns: repeat(4, 1fr);
