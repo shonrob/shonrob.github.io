@@ -6,37 +6,42 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
 
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+     //console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const townData = jsonObject['townData']; 
+    const townsdata = jsonObject['townsdata']; 
+    const place = townsdata.filter(towndata => (towndata.name == "Preston", "Soda Springs", "Fish Haven"));
 
       // making a variable for each element
-  for (let i = 0; i < townData.length; i++ ) {
-    let towns = document.createElement('section');
-    let fullName = document.createElement('h2');
+  townsdata.forEach(towndata => {
+    let community = document.createElement('section');
+    let city = document.createElement('h2');
     let motto = document.createElement('p');
-    let yearFounded = document.createElement('p');
+    let discovered = document.createElement('p');
+    let pop = document.createElement('p');
+    let rain = document.createElement('p');
     let image = document.createElement('img');
-    let alt = document.createElement('alt');
+  
 
       // calling each variable into the JSON Javascript
-    fullName.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-    alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
-    image.setAttribute('src', prophets[i].imageurl);
-    bDay.textContent = "Date of Birth: " +prophets[i].birthdate;
-    birth.textContent = "Place of Birth: " +prophets[i].birthplace;
+    city.textContent = towndata.name;
+    motto.innerHTML = towndata.motto;
+    discovered.innerHTML = "Founded: " +towndata.yearFounded ;
+    pop.innerHTML = "Population: " +towndata.currentPopulation;
+    rain.innerHTML = "Average Annual Rainfall: " +towndata.averageRainfall;
+    image.setAttribute('src', towndata);
 
       // previewing each element with its acquired information to show on the site
-    card.appendChild(fullName);
-    card.appendChild(alt);
-    card.appendChild(bDay);
-    card.appendChild(birth);
-    card.appendChild(image);
+    community.appendChild(city);
+    community.appendChild(motto);
+    community.appendChild(discovered);
+    community.appendChild(pop);
+    community.appendChild(rain);
+    community.appendChild(image);
     
     
     
     
     
-    document.querySelector('div.cards').appendChild(card);
-  }
+    document.querySelector('div.community').appendChild(community);
+  
 });
