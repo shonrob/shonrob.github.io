@@ -44,7 +44,7 @@ header, footer {
 
 /* Medium View */
 
-@media only screen and (max-width: 30rem) {
+@media only screen and (min-width:505px ) {
     .cards {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -52,7 +52,7 @@ header, footer {
 
 /* Large View */
 
-@media only screen and (max-width: 65rem) {
+@media only screen and (min-width:1040px) {
     .cards{
         grid-template-columns: repeat(4, 1fr);
     }
