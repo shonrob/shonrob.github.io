@@ -298,13 +298,52 @@ input[type=email]:valid {
 }
 
   /* Thanks.html page */
-  .graditude {
+.graditude {
       margin: 20px;
       padding: 10px;
       font: 1em;
       text-align: center;
   }
 
+  /* Home(index.html) page */
+
+  .homePage{
+    padding: 20px;
+}
+ .community {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 20px; 
+   padding: 20px;
+   text-align:center;
+}
+.city {
+   background-color: white;
+   border-radius: 25px;
+   padding: 30px;
+}
+.city p {
+   margin: 0;
+}
+.city img{
+ box-shadow: 5px 4px 12px;
+ margin-top:10px;
+}
+.saying {
+   font-style: italic;
+   padding-bottom: 12px;
+}
+
+/* Footer link for wireframes */
+footer a:link {
+    color: #7C8483;
+}
+footer a:visited {
+    color: #00a99d;
+}
+footer a:hover {
+    cursor: pointer;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

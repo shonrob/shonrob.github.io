@@ -37,10 +37,20 @@
    figure:hover{
     box-shadow: 2px 3px 30px grey;
 }
-form fieldset{
+    form fieldset{
     width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
-        
+
+    /*HomePage*/
+    .community {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .city {
+    display: block; 
+    }
+
+
 } /*end large */

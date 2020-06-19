@@ -30,6 +30,8 @@ fetch(requestURL)
     rain.innerHTML = "Average Annual Rainfall: " +towndata.averageRainfall;
     image.setAttribute('src', '/lesson9/images/' + towndata.photo);
     alt.setAttribute('alt', towndata.name);
+    community.setAttribute('class', "city");
+    thought.setAttribute('class', "saying");
 
       // previewing each element with its acquired information to show on the site
     community.appendChild(city);
