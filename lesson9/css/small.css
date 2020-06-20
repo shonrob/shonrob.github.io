@@ -307,6 +307,17 @@ input[type=email]:valid {
 
   /* Home(index.html) page */
 
+  .currentStory{
+    border: 2px solid #022B3A;
+    border-radius:25px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+.currentStory img{
+    box-shadow: 3px 5px 17px;
+}
   .homePage{
     padding: 20px;
 }
