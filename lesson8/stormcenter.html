@@ -61,7 +61,7 @@
                                     <option value="Thunder Storm">
                                     <option value="Tornado">
                                 </datalist>
-                         <label class="top" for="storming">Storm Severity
+                         <label class="top" for="stormSeverity">Storm Severity
                              <input id="stormSeverity" class="stormy" type="range" min="1" max="10" step="1" oninput="adjustValue(this.value)" onchange="adjustValue(this.value)">
                              <span id="ratingValue">1</span>
                          </label>       
@@ -79,9 +79,9 @@
                                     <option value="9"></option>
                                     <option value="10"></option>
                                 </datalist>
-                        <label class="top">Storm Region
-                            <select></label>
-                                <option value=""disabled selected>Select Region</option>
+                        <label class="top">Storm Region </label>
+                            <select>
+                                <option value="" disabled selected>Select Region</option>
                                 <option value="Preston"> Preston </option>
                                 <option value="Soda Springs"> Soda Springs </option>
                                 <option value="Fish Haven"> Fish Haven </option>
@@ -101,7 +101,7 @@
                                 <input type="radio" id="inDangerLevel3" name="dangerLevel" value="Maybe"> Maybe
                             </label> 
                     </div>
-                        <label for="textarea"> Please share any additional information:
+                        <label for="comments"> Please share any additional information:
                             <textarea id="comments" name="comment" rows="4" cols="50"> </textarea>
                         </label>
                         <input type="submit" value="Report A Storm" class="submitButton">
