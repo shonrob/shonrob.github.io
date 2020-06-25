@@ -42,14 +42,15 @@
             </aside>
             <div class="heroDiv">
                 <div class="heroMain">
-                    <img src="images/summer-1528200_1280.jpg" alt="community picture">
+                    <img src="images/newprestonimg.jpg" alt="community picture">
                     <section class="weatherSummary">
                         <h3> Weather Summary</h3>
-                            <p>Currently: Sunny</p>
-                            <p>High: 73&#176; F </p>
-                            <p>Wind Chill: 5&#176; F</p>
-                            <p>Humidty: 54%</p>
-                            <p>Wind Speed: 6 mph</p>
+                            <p>Currently: <span id='view'></span></p>
+                            <p>Current Temp: <span id='current-temp'></span>&deg; F</p>
+                            <p>High: <span id='high'></span>&#176; F </p>
+                            <p>Wind Chill: <span id="windChill"> &#176; </span> F</p>
+                            <p>Humidity: <span id='humidity'></span>%</p>
+                            <p>Wind Speed: <span id='windySpeed'></span></p>
                     </section>  
                 </div>
             </div>
@@ -57,18 +58,26 @@
                 <h2>5 Day Forecast</h2>
                     <table>
                         <tr>
-                            <th >Monday</th>
-                            <th >Tuesday</th>
-                            <th >Wednesday</th>
-                            <th >Thursday</th>
-                            <th >Friday</th>
+                            <th id="weekDays1" ></th>
+                            <th id="weekDays2" ></th>
+                            <th id="weekDays3"></th>
+                            <th id="weekDays4"></th>
+                            <th id="weekDays5"></th>
                         </tr>
                         <tr>
-                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
-                            <td> <img src="images/iconfinder_Gnome-Weather-Few-Clouds-48_55481.png" alt="cloudy weather"> <p>68&#176;F</p> </td>
-                            <td> <img src="images/iconfinder_Gnome-Weather-Showers-48_55485.png" alt="Showers weather"> <p>68&#176;F</p> </td>
-                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
-                            <td> <img src="images/iconfinder_Gnome-Weather-Clear-48_55479.png" alt="clear weather"> <p>68&#176;F</p> </td>
+                            <td id="icon1"></td>
+                            <td id="icon2"></td>
+                            <td id="icon3"></td>
+                            <td id="icon4"></td>
+                            <td id="icon5"></td>
+
+                        </tr>
+                        <tr> 
+                            <td id="temp1">&#176;F</td>
+                            <td id="temp2">&#176;F</td>
+                            <td id="temp3">&#176;F</td>
+                            <td id="temp4">&#176;F</td>
+                            <td id="temp5">&#176;F</td>
                         </tr>
                     </table>
             </div>
@@ -99,9 +108,12 @@
             </div>
         </main>
         <footer>
+            <p><a href="https://openweathermap.org/"> Open Weather Map</a></p>
             <p> &copy; 2020 | Shonda Robinson | Pennsylvania | BYU I Online Learning</p> 
             <p> <span id="currentDate"></span> </p>
         </footer> 
+        <script src="javascript/preston-weather-summary.js"></script>
+        <script src="javascript/windchill.js"></script>
         <script src="javascript/hamButton.js"></script>
         <script src="javascript/currentdate.js"></script>
         <script src="javascript/event.js"></script>
