@@ -3,13 +3,28 @@
     fetch(apiForecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
-       console.log(jsObject); 
+        
+
+        const fiveDayForecast = jsObject.list.filter(x => x.dt_txt.includes(`18:00:00`));
+        // console.log(jsObject);
+        let day =0;
+        const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    fiveDayForecast.forEach(forecast => {
+        let d = new Date(forecast.dt_txt);
+        document.getElementById(`weekDays${day+1}`).textContent = weekDays[d.getDay()];
+        document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
+        day++;
+
+        const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';  
+        const desc = forecast.weather[0].description; 
+        document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc); 
+        document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
+        
+    })
     });
-    /*   
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-      const desc = jsObject.weather[0].description;  // note how we reference the weather array
-      document.getElementById('imagesrc').textContent = imagesrc;  
-      document.getElementById('icon').setAttribute('src', imagesrc); 
-      document.getElementById('icon').setAttribute('alt', desc);
+       
+     
+      
     
-    */
+ 
