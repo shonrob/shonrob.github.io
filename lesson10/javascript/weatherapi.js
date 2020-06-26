@@ -24,7 +24,7 @@ fetch(apiURL)
 const currentTemp = document.querySelector('#current-temp');
 const icon = document.querySelector('img'); //grabs all images
 currentTemp.textContent = jsObject.main.temp; //pulls from the html file
-const imagesrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
+const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
 icon.setAttribute('src', imagesrc);
 icon.setAttribute('alt', desc);

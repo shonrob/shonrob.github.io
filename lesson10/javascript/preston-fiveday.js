@@ -9,17 +9,20 @@
         // console.log(jsObject);
         let day =0;
         const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      
 
     fiveDayForecast.forEach(forecast => {
-        let d = new Date(forecast.dt_txt);
-        document.getElementById(`weekDays${day+1}`).textContent = weekDays[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
-        day++;
+        let week = new Date(forecast.dt_txt);
+        document.getElementById(`weekDays${day+1}`).textContent = weekDays[week.getDay()];
+        document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp.toFixed(0);
+        
 
         const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';  
         const desc = forecast.weather[0].description; 
+         
         document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc); 
         document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
+        day++;
         
     })
     });
