@@ -144,22 +144,16 @@ nav ul.hide{
      background-color: #00a99d;
      display: none;
  }
-
 .weekBox th{
     background-color: #022B3A;
     color: #E0E6E6;
-    border-collapse: collapse;
 }
-.weekBox table, td {
-    border: 2px solid #022B3A;
+.weekBox table, td { 
     padding: 10px;
     margin: 10px;
-    background-color: #E0E6E6;
-    
+    background-color: #E0E6E6; 
   }
-.weekBox table{
-    border-collapse: collapse;
-}
+
 
 #homePic2 {
     float: right;
