@@ -28,6 +28,10 @@
         padding: 10px;
         border: 2px solid #022B3A;
     }
+    
+    .weatherSummary p {
+        margin: 10px;
+    }
     .weekBox{
         background-color: #00a99d;
         display: flex;
@@ -35,11 +39,11 @@
         text-align: center;   
     }
     .weekBox img {
-        background-color: #00a99d;
-        border-radius: 60px;
-        border: 1px solid #022B34;
-        width: 40%;
-    }
+    background-color: #00a99d;
+    border-radius: 60px;
+    border: 1px solid #022B34;
+    width: 40%;
+}
     .mapBox{
         display: grid;
         grid-template-columns: 1fr 1fr;
