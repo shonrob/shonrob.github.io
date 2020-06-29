@@ -1,0 +1,363 @@
+ /* ALL PAGES */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+header{
+    background-color:#022B3A;
+    color: #7C8483; 
+    padding: 5px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+footer{
+    background-color:#022B3A;
+    color: #7C8483; 
+    padding: 5px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+.motto h1 {
+    color: #00a99d;
+    font-size: 1.6rem;
+    padding: 0;
+}
+.motto h3 {
+    color: #7C8483;
+    padding: 0 0 0 15px; 
+}
+
+body {
+    background-color: #8DA7BE;
+}
+main {
+    background-color: #E0F2E9;
+    margin: 10px;
+}
+h1{
+    font-family: "PT Serif", "serif";
+    font-style: italic;
+    font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", "serif";
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+p{
+    font-family: "Open Sans", "sans serif"; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #022B3A; 
+    text-align: center;
+}
+nav{
+    background-color: #8DA7BE;
+    font-size: 1.5em;
+
+}
+nav ul {
+    list-style-type: none;
+    color: #022B3A;
+    padding:0;
+    margin: 0; 
+    text-align: center;
+    justify-content: center;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #E0F2E9;
+
+}
+nav a:link, nav a:visited {
+    color: #022B3A;
+}
+nav a:hover {
+    color: #022B3A ;
+    background-color: #00a99d;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid;
+   
+}
+nav .active a{
+    background-color: #00a99d;
+    color: white;
+}
+nav ul.hide{
+    display:none;
+}
+
+
+#banner{
+    background-color: #7C8483;
+    color: #E0F2E9;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+
+.heroDiv {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.heroDiv img{
+    width: 100%;
+    border: 2px solid #022B3A;
+
+}
+
+.weatherSummary{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background: radial-gradient(#7C8483, #E0E6E6);
+    opacity: .65;
+    box-shadow: 2px 5px;
+    padding: 10px;
+    border: 2px solid #022B3A;
+}
+.weatherSummary h3{
+    background-color: white;
+    border: 1px solid #022B3A;
+    opacity: .90;
+}
+.weatherSummary p {
+    margin: 2px;
+}
+
+
+.heroMain {
+    position: relative;
+    margin: 10px auto;
+}
+ .weekBox{
+     background-color: #00a99d;
+     display: none;
+ }
+.weekBox th{
+    background-color: #022B3A;
+    color: #E0E6E6;
+}
+.weekBox table, td { 
+    padding: 10px;
+    margin: 10px;
+    background-color: #E0E6E6; 
+  }
+
+
+#homePic2 {
+    float: right;
+}
+.mapBox{
+    background-color: #8DA7BE;
+    
+
+   
+}
+.map{
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid #022B3A;
+    padding: 5px;
+    background-color: #7C8483;
+    
+}
+.mapBox p{
+    margin: 0px;
+}
+
+.article{
+    padding: 20px;
+    margin:0;
+}
+.socialMedia img{
+    width: 30px;
+}
+.info {
+    display: block;
+    text-align: center;
+}
+.info p{
+    padding: 5px;
+}
+.info img{
+    padding: 10px;
+}
+ /* Weather Gallery*/
+
+figure {
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+figcaption{
+    color: #022B3A;
+    font-family: "Open Sans"; 
+    text-align: center;
+    padding: 0 0 10px 0;
+    background-color: white;
+
+}
+/* Storm Center*/
+
+
+form fieldset{
+    width: 400px;
+    display: grid; 
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin: 20px;
+    background-color: #8DA7BE; 
+    color: #022B3A; 
+    border-radius: 10px;
+}
+
+form legend{
+    background-color: #022B3A;
+    color: #E0E6E6;
+    padding: 0 .5rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+label{
+   padding-top: 10px;
+   font-size: 1.25em;
+}
+.contact{
+    padding: .5rem;
+    border-radius: 10px;  
+}
+.storm {
+    padding: .5rem;
+    border-radius: 10px; 
+}
+.additionalComments{
+    padding: .5rem;
+    border-radius: 10px; 
+}
+.top select, 
+.top input {
+    display:block; 
+    border-radius:6px;
+    padding: .75rem;
+    width: 60%;
+}
+.danger p{
+    margin:0;
+}
+#comments{
+    width: 100%;
+}
+.submitButton{
+    width: 60%;
+    background-color: #00a99d;
+    color: #E0E6E6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.top input:required {
+    background-color: #f7f7b2dc;
+    border: 4px solid yellow;
+}
+.top input:required:valid {
+    border: 4px solid #00a99d;
+  }
+input[type=email]:valid {
+    border: 4px solid #00a99d;
+}
+.stormy {
+	display: flex;
+	align-items: center;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+  /* Thanks.html page */
+.graditude {
+      margin: 20px;
+      padding: 10px;
+      font: 1em;
+      text-align: center;
+  }
+
+  /* Home(index.html) page */
+
+  .currentStory{
+    border: 2px solid #022B3A;
+    border-radius:25px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+.currentStory img{
+    box-shadow: 3px 5px 17px;
+}
+  .homePage{
+    padding: 20px;
+}
+ .community {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 20px; 
+   padding: 20px;
+   text-align:center;
+}
+.city {
+   background-color: white;
+   border-radius: 25px;
+   padding: 30px;
+}
+.city p {
+   margin: 0;
+}
+.city img{
+ box-shadow: 5px 4px 12px;
+ margin-top:10px;
+}
+.saying {
+   font-style: italic;
+   padding-bottom: 12px;
+}
+
+/* Footer link for wireframes */
+footer a:link {
+    color: #7C8483;
+}
+footer a:visited {
+    color: #00a99d;
+}
+footer a:hover {
+    cursor: pointer;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
