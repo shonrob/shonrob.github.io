@@ -145,10 +145,15 @@
      position: relative;
      margin: 10px auto;
  }
+ 
   .weekBox{
       background-color: #00a99d;
       display: none;
+      border:2px solid #022B3A;
   }
+  .weekBox table{
+    border:2px solid #022B3A;
+}
   .weekBox h2 {
      padding: 0;
      margin-top: 5px;
@@ -207,7 +212,7 @@
     grid-column: 3;
     margin-left: 10px;
     border: 2px solid #022B3A;
-    box-shadow: 8px 5px 30px;
+    box-shadow: 3px 5px 12px;
 }
  .mapBox{
      background-color: #8DA7BE;
