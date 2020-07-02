@@ -376,6 +376,7 @@ input[type=email]:valid {
    background-color: white;
    border-radius: 25px;
    padding: 30px;
+   border: 2px solid #022B3A;
 }
 .city p {
    margin: 0;
