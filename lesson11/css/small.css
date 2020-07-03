@@ -125,19 +125,20 @@ nav ul.hide{
     position: absolute;
     top: 5px;
     left: 10px;
-    background: radial-gradient(#7C8483, #E0E6E6);
-    opacity: .65;
-    box-shadow: 2px 5px;
+    background-color: #E0E6E6;
+    opacity: .75;
+    box-shadow: 2px 5px 10px;
     padding: 10px;
     border: 2px solid #022B3A;
 }
 .weatherSummary h3{
     background-color: white;
     border: 1px solid #022B3A;
-    opacity: .90;
+    opacity: .9;
 }
 .weatherSummary p {
     margin: 2px;
+    color: #022B3A;
 }
 
 

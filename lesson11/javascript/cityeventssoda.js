@@ -21,7 +21,7 @@ fetch(requestURL)
       // calling each variable into the JSON Javascript
       header.textContent = "Upcoming Events ";
       
-      occasion.innerHTML =  place[0].events[0] + '<br>' + place[0].events[1] + '<br>' + place[0].events[2];
+      occasion.innerHTML =  place[0].events[0] + '<hr>'  + place[0].events[1] + '<hr>' + place[0].events[2];
   
       // previewing each element with its acquired information to show on the site
   
