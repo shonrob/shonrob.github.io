@@ -74,6 +74,10 @@
         grid-template-rows: repeat(3, 1fr);
 
     }
+    .currentStory img{
+        width:400px;
+        float: right;
+    }
     .city {
         display: grid;
 	    grid-template-columns: 1fr 1fr;

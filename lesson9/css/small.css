@@ -316,8 +316,12 @@ input[type=email]:valid {
     margin: 50px;
 }
 .currentStory img{
-    box-shadow: 3px 5px 17px;
+    width:100%;
+    float: right;
+    border-radius: 25px;
+    border: 2px solid #022B3A;
 }
+
   .homePage{
     padding: 20px;
 }
@@ -332,6 +336,7 @@ input[type=email]:valid {
    background-color: white;
    border-radius: 25px;
    padding: 30px;
+   border: 2px solid #022B3A;
 }
 .city p {
    margin: 0;
@@ -339,6 +344,7 @@ input[type=email]:valid {
 .city img{
  box-shadow: 5px 4px 12px;
  margin-top:10px;
+ border-radius: 25px;
 }
 .saying {
    font-style: italic;
