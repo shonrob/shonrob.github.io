@@ -19,7 +19,7 @@
       /* PRESTON PAGE */  
     
     .weatherSummary{
-        position: absolute;
+        position: absolute; 
         top: 35px;
         left: 350px;
     }

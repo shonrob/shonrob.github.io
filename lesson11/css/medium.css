@@ -26,7 +26,7 @@
         opacity: .75;
         box-shadow: 2px 5px;
         padding: 10px;
-        border: 2px solid #022B3A;
+        border: 2px solid #022B3A; 
     }
     
     .weatherSummary p {
@@ -34,7 +34,6 @@
         color: #022B3A;
     }
     .weekBox{
-        background-color: #00a99d;
         display: flex;
         flex-flow: column;
         text-align: center;   
@@ -44,6 +43,23 @@
     border-radius: 60px;
     border: 1px solid #022B34;
     width: 40%;
+}
+.article{
+    padding: 20px;
+    display: grid;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.article h2{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.article img {
+    grid-row: 2;
+    grid-column: 3;
+    margin-left: 10px;
+    box-shadow: 3px 5px 12px;
 }
     .mapBox{
         display: grid;
