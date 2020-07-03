@@ -299,17 +299,20 @@ input[type=email]:valid {
 
   .currentStory{
     border: 2px solid #022B3A;
-    border-radius:25px;
+    
     background-color: white;
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     margin: 50px;
 }
 .currentStory img{
     width:100%;
     float: right;
-    border-radius: 25px;
+ 
     border: 2px solid #022B3A;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 12px;
 }
 
   .homePage{
@@ -324,7 +327,7 @@ input[type=email]:valid {
 }
 .city {
    background-color: white;
-   border-radius: 25px;
+
    padding: 30px;
    border: 2px solid #022B3A;
 }
@@ -334,7 +337,7 @@ input[type=email]:valid {
 .city img{
  box-shadow: 5px 4px 12px;
  margin-top:10px;
- border-radius: 25px;
+
 }
 .saying {
    font-style: italic;

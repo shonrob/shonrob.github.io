@@ -45,6 +45,13 @@
     border: 1px solid #022B34;
     width: 40%;
 }
+.article{ 
+    display: block;
+
+}
+.article img{
+    float: right;
+}
     .mapBox{
         display: grid;
         grid-template-columns: 1fr 1fr;

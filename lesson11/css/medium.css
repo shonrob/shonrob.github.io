@@ -45,22 +45,19 @@
     width: 40%;
 }
 .article{
-    padding: 20px;
-    display: grid;
-    width: 90%;
-    margin:auto;
-    margin-bottom: 20px;
+display: block;
+padding: 15px 15px 115px 15px;
+  
 }
-.article h2{
-    grid-column: 1/4;
-    grid-row: 1;
+.article img{
+ float: right;
+ margin-left: 30px;
+ margin-bottom: 15px; 
 }
-.article img {
-    grid-row: 2;
-    grid-column: 3;
-    margin-left: 10px;
-    box-shadow: 3px 5px 12px;
+.sodaArticle{
+    padding: 15px;
 }
+
     .mapBox{
         display: grid;
         grid-template-columns: 1fr 1fr;
