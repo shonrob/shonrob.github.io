@@ -32,10 +32,9 @@ header img{
 }
 
 body {
-    background-color: #8DA7BE;
+    background-color: #E0F2E9;
 }
 main {
-    background-color: #E0F2E9;
     margin: 10px;
 }
 h1{
@@ -58,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 nav{
-    background-color: #8DA7BE;
+    background-color: white;
     font-size: 1.5em;
 
 }
@@ -83,7 +82,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
     color: #022B3A ;
-    background-color: #00a99d;
+    background-color:#E0F2E9;
 }
 nav ul li a {
     display: block;
@@ -93,8 +92,8 @@ nav ul li a {
    
 }
 nav .active a{
-    background-color: #00a99d;
-    color: white;
+    border:2px solid #00a99d;
+    color: #00a99d;
 }
 nav ul.hide{
     display:none;
@@ -163,12 +162,7 @@ nav ul.hide{
 #homePic2 {
     float: right;
 }
-.mapBox{
-    background-color: #8DA7BE;
-    
 
-   
-}
 .map{
     width: max-content;
     margin: 0 auto;
