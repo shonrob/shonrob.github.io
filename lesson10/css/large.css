@@ -41,7 +41,7 @@
          .article h2{
             grid-column: 1/4;
             grid-row: 1;
-        }
+        } 
         .article img {
             grid-row: 2;
             grid-column: 3;

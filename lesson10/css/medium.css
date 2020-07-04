@@ -59,7 +59,7 @@
         margin: auto;
         border: 2px solid;
         padding-bottom: 10px;
-    }
+    } 
     .map {
         grid-column: 1; 
         grid-row: 2; 
