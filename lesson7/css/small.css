@@ -11,7 +11,7 @@ header{
 footer{
     background-color:#022B3A;
     color: #7C8483; 
-    padding: 5px 0;
+    padding: 5px 0; 
     margin: 0;
     display: block;
     text-align: center;
@@ -210,6 +210,12 @@ figcaption{
     padding: 0 0 10px 0;
     background-color: white;
 
+}
+footer a:link {
+    color: #7C8483;
+}
+footer a:visited {
+    color: #00a99d;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

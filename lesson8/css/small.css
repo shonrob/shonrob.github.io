@@ -19,7 +19,7 @@ footer{
 }
 
 header img{
-    width: 200px;
+    width: 200px; 
     height: auto;
 }
 .motto h1 {
@@ -301,7 +301,12 @@ input[type=email]:valid {
       font: 1em;
       text-align: center;
   }
-
+  footer a:link {
+    color: #7C8483;
+}
+footer a:visited {
+    color: #00a99d;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
