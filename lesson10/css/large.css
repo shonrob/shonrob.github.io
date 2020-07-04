@@ -33,6 +33,21 @@
         flex-flow: column;
         
     }
+    .article{
+        display: grid;
+        padding: 20px;
+        margin: 45px;
+         }
+         .article h2{
+            grid-column: 1/4;
+            grid-row: 1;
+        }
+        .article img {
+            grid-row: 2;
+            grid-column: 3;
+            margin-left: 10px;
+            box-shadow: 3px 5px 12px;
+        }
      /* GAllERY PAGE */ 
    .weatherGallery {
        display: grid;

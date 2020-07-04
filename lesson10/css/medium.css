@@ -55,6 +55,10 @@
     .mapBox{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 75%;
+        margin: auto;
+        border: 2px solid;
+        padding-bottom: 10px;
     }
     .map {
         grid-column: 1; 
@@ -67,6 +71,7 @@
         justify-self: center;
         grid-column: 2;
     }
+
      /* GALLERY PAGE */ 
     .weatherGallery {
         display: grid;
