@@ -53,7 +53,7 @@
      /* GAllERY PAGE */ 
    .weatherGallery {
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr 1fr; 
        grid-template-rows: 1fr 1fr 1fr;
        justify-items: center;
        grid-gap: 15px;
