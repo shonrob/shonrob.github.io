@@ -1,0 +1,57 @@
+/*
+Error: File to import not found or unreadable: medium.
+       Load path: C:/Users/robin/OneDrive/Desktop/BYU I/Spring 2020/WDD/shonrob.github.io/lesson12/start_here/scss
+        on line 6 of C:\Users\robin\OneDrive\Desktop\BYU I\Spring 2020\WDD\shonrob.github.io\lesson12\start_here\scss\styles.scss
+
+1: @import "normalize";
+2: 
+3: @import "small";
+4: 
+5: @media only screen and (min-width: 560px) {
+6:     @import "medium";
+7: } /* end of media query *\/ 
+8: 
+9: @media only screen and (min-width: 1028px) {
+10:     @import "large";
+11: } /* end of media query *\/
+
+Backtrace:
+C:\Users\robin\OneDrive\Desktop\BYU I\Spring 2020\WDD\shonrob.github.io\lesson12\start_here\scss\styles.scss:6
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:108:in `rescue in invalid_import_parent?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:102:in `invalid_import_parent?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:171:in `try_send'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:14:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:38:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:24:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:35:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: medium.\A        Load path: C:/Users/robin/OneDrive/Desktop/BYU I/Spring 2020/WDD/shonrob.github.io/lesson12/start_here/scss\A         on line 6 of C:\Users\robin\OneDrive\Desktop\BYU I\Spring 2020\WDD\shonrob.github.io\lesson12\start_here\scss\styles.scss\A \A 1: @import \"normalize\";\A 2: \A 3: @import \"small\";\A 4: \A 5: @media only screen and (min-width: 560px) {\A 6:     @import \"medium\";\A 7: } /* end of media query */ \A 8: \A 9: @media only screen and (min-width: 1028px) {\A 10:     @import \"large\";\A 11: } /* end of media query */"; }
