@@ -1,0 +1,120 @@
+/* general page */
+body {
+    background-color: #F03A47;
+}
+
+main {
+    background-color: white;
+    margin: 2%;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #F5EE9E;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+a:link {
+    text-decoration: none;
+
+}
+/* end of general page */
+
+/* header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img{
+    border-radius: 25px;
+    border: 2px dotted #F03A47;
+}
+.info{
+    border: 2px dotted #F03A47;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: #51D9DB;
+}
+.info h2{
+    font-size: 2em;
+    margin: 0  0 10px 0;
+}
+.info p {
+    margin: .5px;
+}
+ /* end of header */
+
+ /* nav bar */
+ nav button{ 
+    display: none;
+}
+
+nav ul {
+    margin-left: 2%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a{
+    border:none;
+    padding: .6rem 1rem;
+}
+/* end of nav */
+
+ /* footer */
+ footer {
+     display: flex;
+     flex-direction: row;
+ }
+ .socialMedia {
+     background-color: #51D9DB;
+     border-radius: 25px;
+     border: 2px dotted #F03A47;
+     padding: 5px;
+ }
+/* SITE PLAN */
+.primary{
+    background-color: #F03A47; 
+}
+.secondary{
+    background-color: #F5EE9E; 
+}
+.accent1{
+    background-color: #51D9DB;
+}
+.colors {
+        width: 100%;
+        min-width: 350px;
+        margin: auto;
+        text-align: center;
+      }
+      .colors th {
+        background-color:whitesmoke;
+      }
+      .colors td{
+        height: 10em;
+}
+ /* end of footer */
+
+/* home page */
+.home{
+    display: grid;
+}
+.home img{
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 5px;
+}
