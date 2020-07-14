@@ -4,7 +4,7 @@
  /* NAV- ALL PAGES */ 
     nav button{ 
         display: none;
-    }
+    } 
     nav ul.hide {
         display: flex;
     }

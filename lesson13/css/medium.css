@@ -1,0 +1,20 @@
+ /* 35em is also 560px when basefont is 16px */
+ @media only screen and (min-width: 35rem) {
+
+    /* NAV- ALL PAGES */ 
+    nav button{ 
+      display: none;
+  } 
+  nav ul.hide {
+      display: flex;
+  }
+  nav ul {
+      margin-left: 2%;
+      justify-content: space-around;
+  }
+  
+  nav ul li a{
+      border:none;
+      padding: .6rem 1rem;
+  }
+  }

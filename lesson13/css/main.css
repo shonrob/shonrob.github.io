@@ -30,21 +30,22 @@ a:link {
 
 /* header */
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 header img{
     border-radius: 25px;
     border: 2px dotted #F03A47;
+
 }
 .info{
+    width: fit-content;
     border: 2px dotted #F03A47;
+    padding: 15px;
     border-radius: 25px;
-    padding: 10px;
-    margin-right: 20px;
-    justify-content: center;
     background-color: #51D9DB;
+    justify-self: end;
+    
 }
 .info h2{
     font-size: 2em;
@@ -56,22 +57,39 @@ header img{
  /* end of header */
 
  /* nav bar */
- nav button{ 
-    display: none;
+ nav{
+    flex-direction: row;
+    font-size: 1.6rem;
 }
-
 nav ul {
     margin-left: 2%;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
+    text-align: center;
+    padding:0;
+    color: #F5EE9E;
 }
-nav ul li {
-    float: left;
+
+nav button{ 
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+
+}
+nav a:link, nav a:visited {
+    color: #F5EE9E;
+}
+nav a:hover {
+    color: #51D9DB;
+    border:2px dotted #F5EE9E;
 }
 nav ul li a{
+    display: block;
     border:none;
-    padding: .6rem 1rem;
+    padding: 5px;
 }
+
 /* end of nav */
 
  /* footer */
@@ -118,3 +136,10 @@ nav ul li a{
     border: 2px solid black;
     margin: 5px;
 }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
