@@ -37,9 +37,45 @@
         </nav>
         <main>
         <div class="home">
-            <img src="images/homepic.jpg" alt="island scope">
+            <div class="homeTop">
+            <img class="homePic" src="images/homepic.jpg" alt="island scope">
+            <section class="weatherSummary">
+                <h3>Today's Weather</h3>
+                    <p>Currently: <span id='view'></span></p>
+                    <p>Current Temp: <span id='current-temp'></span>&deg; F</p>
+                    <p>Humidity: <span id='humidity'></span>%</p>
+            </section> 
+            </div> 
+            <a href="reservations.html"><button id="reserveButton">Reserve Today</button></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+            <div class="weekBox">
+                <h2>5 Day Forecast</h2>
+                    <table>
+                        <tr>
+                            <th id="weekDays1" ></th>
+                            <th id="weekDays2" ></th>
+                            <th id="weekDays3"></th>
+                            <th id="weekDays4"></th>
+                            <th id="weekDays5"></th>
+                        </tr>
+                        <tr>
+                            <td> <img src="images/newprestonimg.jpg" alt="blank"  id="icon1"></td>
+                            <td> <img src="images/newprestonimg.jpg" alt="blank" id="icon2"></td>
+                            <td> <img src="images/newprestonimg.jpg" alt="blank" id="icon3"></td>
+                            <td> <img src="images/newprestonimg.jpg" alt="blank" id="icon4"></td>
+                            <td> <img src="images/newprestonimg.jpg" alt="blank" id="icon5"></td>
+
+                        </tr>
+                        <tr> 
+                            <td><span id="forecast1"></span>&deg;F</td>
+                            <td><span id="forecast2"></span>&deg;F</td>
+                            <td><span id="forecast3"></span>&deg;F</td>
+                            <td><span id="forecast4"></span>&deg;F</td>
+                            <td><span id="forecast5"></span>&deg;F</td>
+                        </tr>
+                    </table>
+            </div>
         </div>
         </main>
         <footer>
@@ -51,9 +87,9 @@
                     <a href="https://www.youtube.com" target="blank"> <img src="images/iconfinder_BW_Youtube_2_glyph_svg_5305165.png" alt="youtube icon"></a>
                 </div>
             </div>
-            <p> &copy; 2020 | <a href="">Shonda Robinson</a> | Pennsylvania | <a href="https://www.byui.edu/online"> BYU I Online Learning</a> <br> <br><a href="resource.html">Resources</a> | <a href="siteplan.html">Site Plan</a> 
+            <p> &copy; 2020 | <a href="">Shonda Robinson</a> | Pennsylvania | |<p> <span id="time"></span> </p><br><br> <a href="https://www.byui.edu/online"> BYU I Online Learning</a> | <br> <br><a href="resource.html">Resources</a> | <a href="siteplan.html">Site Plan</a> 
             </p> 
         </footer>
-        <script src=""></script>
+        <script src="javascript/home.js"></script>
     </body>
 </html>

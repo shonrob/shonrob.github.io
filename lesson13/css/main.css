@@ -32,6 +32,7 @@ a:link {
 header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 header img{
     border-radius: 25px;
@@ -62,19 +63,20 @@ header img{
     font-size: 1.6rem;
 }
 nav ul {
-    margin-left: 2%;
+    margin: 0;
     justify-content: center;
     list-style-type: none;
     text-align: center;
-    padding:0;
+    padding:0; 
     color: #F5EE9E;
 }
 
 nav button{ 
-    display: none;
+    margin-left:5%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
+    color: #F5EE9E;
 
 }
 nav a:link, nav a:visited {
@@ -88,6 +90,9 @@ nav ul li a{
     display: block;
     border:none;
     padding: 5px;
+}
+nav ul.hide{
+    display:none;
 }
 
 /* end of nav */
@@ -128,14 +133,64 @@ nav ul li a{
  /* end of footer */
 
 /* home page */
-.home{
-    display: grid;
+.homeTop{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 7em;
 }
-.home img{
+.homePic{
     border-radius: 25px;
     border: 2px solid black;
     margin: 5px;
 }
+.weatherSummary{
+    background-color: #F5EE9E;
+    background-image: linear-gradient(#51D9DB ,#F5EE9E);
+    border: 2px dotted #F03A47;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: end;
+    grid-template-rows: 1fr;
+ 
+}
+#reserveButton{
+    background-color: #51D9DB;
+    border-radius: 13px;
+    font-size: 24px;
+    padding: 8px;
+    border: 2px dotted #F03A47;
+}
+.weekBox table{
+    border:2px solid #51D9DB;
+    border-radius: 25px;
+    width: 85%;
+    text-align: center;
+}
+ 
+ .weekBox h2 {
+    padding: 0;
+    margin-top: 5px;
+
+}
+.weekBox th{
+    background-color: #F5EE9E;
+    color: black;
+    border-radius: 7px;
+    padding: 5px;
+}
+.weekBox table, td { 
+    padding: 10px;
+    margin: 10px;
+    background-color:#51D9DB; 
+  }
+
+.weekBox img{
+    width: 55%;
+}
+    
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
