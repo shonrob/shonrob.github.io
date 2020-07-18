@@ -18,7 +18,7 @@ function toggleMenu() {
  fetch(apiURL)
  .then((response) => response.json())
  .then((jsObject) => {
-    console.log(jsObject); // temporary checking for valid response and data parsing
+    //console.log(jsObject); // temporary checking for valid response and data parsing
   
      document.getElementById('view').textContent = jsObject.weather[0].description;
      document.getElementById('current-temp').textContent = jsObject.main.temp;
@@ -34,7 +34,7 @@ function toggleMenu() {
          
  
          const fiveDayForecast = jsObject.list.filter(x => x.dt_txt.includes(`12:00:00`));
-          console.log(jsObject);
+          //console.log(jsObject);
          let day =0;
          const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
        
@@ -57,3 +57,10 @@ function toggleMenu() {
 
      //end of 5 day forecast
 
+     //rental json file
+     const rental = "data/rental.json";
+     fetch(rental)
+     .then((response) => response.json())
+     .then((jsObject) => {
+        console.log(jsObject);
+     });

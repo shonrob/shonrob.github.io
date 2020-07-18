@@ -18,13 +18,17 @@ header, footer {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif', serif;
+    text-align: center;
 }
 p{
     font-family: 'Open Sans', sans-serif;
 }
 a:link {
     text-decoration: none;
-
+    font-family: 'Open Sans', sans-serif;
+}
+figcaption {
+    font-family: 'Open Sans', sans-serif;
 }
 /* end of general page */
 
@@ -40,7 +44,6 @@ header img{
 
 }
 .info{
-    width: fit-content;
     border: 2px dotted #F03A47;
     padding: 15px;
     border-radius: 25px;
@@ -101,6 +104,7 @@ nav ul.hide{
  footer {
      display: flex;
      flex-direction: row;
+     justify-content: space-evenly;
  }
  .socialMedia {
      background-color: #51D9DB;
@@ -108,6 +112,14 @@ nav ul.hide{
      border: 2px dotted #F03A47;
      padding: 5px;
  }
+ .foot {
+     border-right: 2px dotted;
+     border-right-color: #F03A47;
+     border-left: 2px dotted;
+     border-left-color: #F03A47;
+     padding: 50px;
+ }
+ 
 /* SITE PLAN */
 .primary{
     background-color: #F03A47; 
@@ -135,7 +147,7 @@ nav ul.hide{
 /* home page */
 .homeTop{
     display:grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 7em;
 }
@@ -162,6 +174,21 @@ nav ul.hide{
     font-size: 24px;
     padding: 8px;
     border: 2px dotted #F03A47;
+    text-align: center;
+}
+.homeGallery{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+
+ 
+}
+.homeGallery img{
+    border: 2px solid black;
+    border-radius: 25px;
+
 }
 .weekBox table{
     border:2px solid #51D9DB;
