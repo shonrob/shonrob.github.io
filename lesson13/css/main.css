@@ -34,13 +34,15 @@ figcaption {
 
 /* header */
 header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: block;
+    text-align: center;
 
 }
 header img{
+    width:fit-content;
     border-radius: 25px;
     border: 2px dotted #F03A47;
+  
 
 }
 .info{
@@ -102,24 +104,41 @@ nav ul.hide{
 
  /* footer */
  footer {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
- }
- .socialMedia {
-     background-color: #51D9DB;
-     border-radius: 25px;
-     border: 2px dotted #F03A47;
-     padding: 5px;
- }
- .foot {
-     border-right: 2px dotted;
-     border-right-color: #F03A47;
-     border-left: 2px dotted;
-     border-left-color: #F03A47;
-     padding: 50px;
- }
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 125px;
+}
+footer p{
+    margin:.5px;
+    
+}
+
+.socialMedia {
+    display:block;
+    background-color: #51D9DB;
+    border-radius: 25px;
+    border: 2px dotted #F03A47;
+    padding: 15px;  
+    
+}
+.socialMedia img{
+    width:32px;
+    margin: auto;
+}
+
+.foot {
+    border-right: 2px dotted;
+    border-right-color: #F03A47;
+    border-left: 2px dotted;
+    border-left-color: #F03A47;
+    padding: 10px;
+}
+footer a, p{
+    font-size: .75em;
+}
+
+  /* end of footer */
 /* SITE PLAN */
 .primary{
     background-color: #F03A47; 
@@ -142,19 +161,16 @@ nav ul.hide{
       .colors td{
         height: 10em;
 }
- /* end of footer */
+/* end of site plan */
 
 /* home page */
 .homeTop{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-gap: 7em;
+    display:block;
 }
 .homePic{
     border-radius: 25px;
     border: 2px solid black;
-    margin: 5px;
+    width: 100%;
 }
 .weatherSummary{
     background-color: #F5EE9E;
@@ -164,26 +180,22 @@ nav ul.hide{
     width: fit-content;
     padding: 10px;
     text-align: center;
-    grid-template-columns: end;
-    grid-template-rows: 1fr;
- 
+    margin: auto;
 }
 #reserveButton{
+    display: block;
     background-color: #51D9DB;
     border-radius: 13px;
     font-size: 24px;
     padding: 8px;
     border: 2px dotted #F03A47;
-    text-align: center;
+    margin:auto;
 }
 .homeGallery{
-    display: flex;
-    flex-direction: row;
+    display: block;
     text-align: center;
     align-items: center;
     align-content: space-around;
-
- 
 }
 .homeGallery img{
     border: 2px solid black;
@@ -193,7 +205,7 @@ nav ul.hide{
 .weekBox table{
     border:2px solid #51D9DB;
     border-radius: 25px;
-    width: 85%;
+    width: 100%;
     text-align: center;
 }
  
@@ -215,7 +227,7 @@ nav ul.hide{
   }
 
 .weekBox img{
-    width: 55%;
+    width: 65%;
 }
     
 

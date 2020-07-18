@@ -1,6 +1,27 @@
  /* 35em is also 560px when basefont is 16px */
  @media only screen and (min-width: 35rem) {
 
+/* header  */
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.homeTop{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 7em;
+}
+.weatherSummary{
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: end;
+    grid-template-rows: 1fr;
+ 
+}
     /* NAV- ALL PAGES */ 
     nav button{ 
       display: none;
@@ -17,4 +38,27 @@
       border:none;
       padding: .6rem 1rem;
   }
+.homePic{
+    width:150%;
+}
+.homeGallery{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+}
+.homeGallery img{
+  width: 100%;
+}
+footer{
+    display: flex;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    grid-template-columns:1;
+}
+
   } 

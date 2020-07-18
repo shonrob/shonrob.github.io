@@ -16,4 +16,16 @@
          border:none;
          padding: .6rem 1rem;
      }
+     footer{
+         height: 100px;
+     }
+     footer a, p{
+         font-size:1em;
+     }
+     .foot{
+         padding: 0 50px 0 50px;
+     }
+     .footLink{
+         margin-top: 10px;
+     }
     } 
