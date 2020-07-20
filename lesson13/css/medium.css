@@ -60,5 +60,21 @@ footer{
     width: fit-content;
     grid-template-columns:1;
 }
+/* reservation page  */
+.top select, 
+.top input,
+.top textarea {
+    width: 40%;
+}
+#state{
+    width:11%
+}
+#country{
+    width: 10%
+}
+.submitButton{
+    width: 40%;
+}
+
 
   } 

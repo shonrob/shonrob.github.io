@@ -63,4 +63,36 @@ function toggleMenu() {
      .then((response) => response.json())
      .then((jsObject) => {
         console.log(jsObject);
+    
+    const rentalOptions = jsObject['rentalOptions'];
+
+    for (let i=0; i< rentalOptions.length; i++) {
+        let list = document.createElement('section');
+        let head = document.createElement('h2');
+        let peep = document.createElement('p');
+        let r1 = document.createElement('p');
+        let r2 = document.createElement('p');
+        let info = document.createElement('p');
+        let info2 = document.createElement('p');
+
+        head.innerHTML = rentalOptions[i].machine;
+        peep.textContent = rentalOptions[i].people;
+        r1.textContent = rentalOptions[i].reserve1;
+        r2.textContent = rentalOptions[i].reserve2;
+        info.textContent = rentalOptions[i].walk1;
+        info2.textContent = rentalOptions[i].walk2;
+            console.log(rentalOptions[i].machine);
+        list.appendChild(head);
+        list.appendChild(peep);
+        list.appendChild(r1);
+        list.appendChild(r2);
+        list.appendChild(info);
+        list.appendChild(info2);
+
+        document.querySelector('div.rent').appendChild(list);
+
+    }
+
      });
+
+    //  end of json rental 
