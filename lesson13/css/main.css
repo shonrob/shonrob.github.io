@@ -275,10 +275,10 @@ legend {
     border: 4px solid #F03A47 ;
 }
 .top input:required:valid {
-    border: 4px solid #00a99d;
+    border: 4px solid #51D9DB;
   }
 input[type=email]:valid {
-    border: 4px solid #00a99d;
+    border: 4px solid #51D9DB;
 }
 form h4{
     text-align: left;
@@ -297,7 +297,38 @@ form h4{
     width: 300px;
 }
 /* end of confirmation page  */
+/* tour page  */
+.banner{
+    display:block;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 25px;
+    background-color: #F5EE9E;
+    padding: 5px;
+    width: 100%;
+}
 
+.tour{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.tour figure{
+    background-color: #51D9DB;
+    border-radius: 25px;
+    border: 3px dotted #F03A47;
+    padding: 15px;
+}
+.tour img{
+    border-radius: 25px;
+    background-color: #F5EE9E;
+    padding: 3px;
+}
+
+/* end of tour page  */
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
