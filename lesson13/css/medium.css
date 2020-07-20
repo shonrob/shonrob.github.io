@@ -75,6 +75,16 @@ footer{
 .submitButton{
     width: 40%;
 }
+/* end of reservation page  */
+/* confirmation pages  */
+.grateful {
+    text-align: center;
+}
+.grateful img{
+    width: 800px;
+}
+/* end of confirmation page  */
+
 
 
   } 

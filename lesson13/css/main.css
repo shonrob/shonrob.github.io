@@ -229,7 +229,7 @@ footer a, p{
 .weekBox img{
     width: 65%;
 }
-
+/* end of home page  */
 /* reservation page  */
 .top select, 
 .top input,
@@ -283,6 +283,20 @@ input[type=email]:valid {
 form h4{
     text-align: left;
 }
+/* end of reservation page  */
+/* contact page  */
+.contactUs h4{
+    text-align: left;
+}
+/* end of contact page  */
+/* confirmation pages  */
+.grateful {
+    text-align: center;
+}
+.grateful img{
+    width: 300px;
+}
+/* end of confirmation page  */
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
