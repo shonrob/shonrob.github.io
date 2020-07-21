@@ -84,7 +84,59 @@ footer{
     width: 800px;
 }
 /* end of confirmation page  */
+/* tour page  */
+.banner{
+    width: 900px;
+}
+/* end of tour page  */
+/* contact page  */
+.contactUs{
+    display:grid;
+ 
+}
+.p p, 
+.p a {
+    margin:0;
+    float:left;
+    text-align: left;
+}
+.contactUs h4{
+    float:left;
+    margin-bottom:0;
+}
 
+.contactUs iframe{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .sign {
+    grid-area: 'image';
+}
+.p1{
+    grid-area: 'para1';
+}
+.p2{
+    grid-area: "para2";
+}
+.p3{
+    grid-area: "para3";
+}
+.h4 {
+    grid-area:"headline";
+}
+.guidelines{
+    grid-area: "map";
+}
+.contactUs{
+    display:grid;
+    grid-template-areas:
+    'para1 para1  image image'
+    'para2 para2  image image'
+    'para3 para3  image image'
+    'headline  headline headline headline '
+    'map map map map ';
+    grid-gap: 5px;
+}  */
 
 
   } 

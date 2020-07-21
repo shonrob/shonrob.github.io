@@ -21,7 +21,7 @@
          
  
          const fiveDayForecast = jsObject.list.filter(x => x.dt_txt.includes(`18:00:00`));
-         // console.log(jsObject);
+          console.log(jsObject)
          let day =0;
          const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
        

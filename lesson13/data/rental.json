@@ -1,68 +1,58 @@
 {
     "rentalOptions":  [
       {
-          "Machine": "Rental Machine",
-          "People": "Max Persons",
-          "Reserve1": "Reservation (H)",
-          "Reserve2": "Reservation (F)",
-          "Walk1": "Walk-In (H)",
-          "Walk2": "Walk-in (F)"
+        "rentalType": "Honda Metro Scooter",
+        "people": "1",
+        "reservationH": "20",
+        "reservationF": "30",
+        "walkinH": "25",
+        "walkinF": "35",
+        "image":"images/hondaMet.jpg"
       },
       {
-          "Machine": "Type",
-          "People": "#",
-          "Reserve1": "Half Day (3hrs)",
-          "Reserve2": "Full Day ",
-          "Walk1": "Half Day (3 hrs)",
-          "Walk2": "Full Day"
+        "rentalType": "Honda Dio Scooter",
+        "people": "2",
+        "reservationH": "30",
+        "reservationF": "40",
+        "walkinH": "35",
+        "walkinF": "45",
+        "image": "images/hondaDio.jpg"
       },
       {
-          "Machine": "Honda Metro Scooter",
-          "People": "1",
-          "Reserve1": "$20 ",
-          "Reserve2": "$30 ",
-          "Walk1": "$25 ",
-          "Walk2": "$35 "
+        "rentalType": "Honda PCX1150 Scooter",
+        "people": "2",
+        "reservationH": "40",
+        "reservationF": "50",
+        "walkinH": "45",
+        "walkinF": "55",
+        "image": "images/hondaPcx.jpg"
       },
       {
-          "Machine": "Honda Dio Scooter",
-          "People": "2",
-          "Reserve1": "$30 ",
-          "Reserve2": "$40 ",
-          "Walk1": "$35 ",
-          "Walk2": "$45 "
+        "rentalType": "Honda Pioneer ATV",
+        "people": "4",
+        "reservationH": "50",
+        "reservationF": "70",
+        "walkinH": "60",
+        "walkinF": "80",
+        "image":"images/hondaSideBySide.jpg"
       },
       {
-          "Machine": "Honda PCX150 Scooter",
-          "People": "2",
-          "Reserve1": "$40 ",
-          "Reserve2": "$50 ",
-          "Walk1": "$45 ",
-          "Walk2": "$55 "
+        "rentalType": "Jeep Wrangler-4 door with A/C",
+        "people": "5",
+        "reservationH": "70",
+        "reservationF": "100",
+        "walkinH": "85",
+        "walkinF": "125",
+        "image": "images/jeep5.png"
       },
       {
-          "Machine": "Honda Pioneer ATV",
-          "People": "4",
-          "Reserve1": "$50 ",
-          "Reserve2": "$70 ",
-          "Walk1": "$60 ",
-          "Walk2": "$80 "
-      },
-      {
-          "Machine": "Jeep Wrangler-4 door with A/C",
-          "People": "5",
-          "Reserve1": "$70 ",
-          "Reserve2": "$100 ",
-          "Walk1": "$85 ",
-          "Walk2": "$125 "
-      },
-      {
-          "Machine": "Jeep Wrangler-2 door",
-          "People": "4",
-          "Reserve1": "$60 ",
-          "Reserve2": "$85 ",
-          "Walk1": "$70 ",
-          "Walk2": "$90"
+        "rentalType": "Jeep Wrangler-2 door",
+        "people": "4",
+        "reservationH": "60",
+        "reservationF": "85",
+        "walkinH": "70",
+        "walkinF": "90",
+        "image":"images/jeep4.jpg"
       }
   ]
   }

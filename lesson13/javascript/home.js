@@ -58,41 +58,24 @@ function toggleMenu() {
      //end of 5 day forecast
 
      //rental json file
-     const rental = "data/rental.json";
+     const rental = "data/rental.json"; 
      fetch(rental)
      .then((response) => response.json())
      .then((jsObject) => {
         console.log(jsObject);
     
-    const rentalOptions = jsObject['rentalOptions'];
+    const rentals = jsObject['rentalOptions'];
+  
+    rentals.forEach(rentalOptions => {
+        document.getElementById('rent').innerHTML +=
+        `<tr><th> Rental Type ${rentalOptions.rentalType}</tr></th>
+        <tr><td> Max People ${rentalOptions.people}</tr></td> 
+        <tr><td>Reservation Price (Half Day: 3 Hours) ${rentalOptions.reservationH}</tr></td>
+        <tr><td>Reservation Price (Full Day) ${rentalOptions.reservationF}</tr></td>
+        <tr><td>Walk-In Price (Half Day: 3 Hours) ${rentalOptions.walkinH}</tr></td>
+        <tr><td>Walk-In Price (Full Day) ${rentalOptions.walkinF}</tr></td>`
+    })
+});
 
-    for (let i=0; i< rentalOptions.length; i++) {
-        let list = document.createElement('section');
-        let head = document.createElement('h2');
-        let peep = document.createElement('p');
-        let r1 = document.createElement('p');
-        let r2 = document.createElement('p');
-        let info = document.createElement('p');
-        let info2 = document.createElement('p');
 
-        head.innerHTML = rentalOptions[i].machine;
-        peep.textContent = rentalOptions[i].people;
-        r1.textContent = rentalOptions[i].reserve1;
-        r2.textContent = rentalOptions[i].reserve2;
-        info.textContent = rentalOptions[i].walk1;
-        info2.textContent = rentalOptions[i].walk2;
-            console.log(rentalOptions[i].machine);
-        list.appendChild(head);
-        list.appendChild(peep);
-        list.appendChild(r1);
-        list.appendChild(r2);
-        list.appendChild(info);
-        list.appendChild(info2);
 
-        document.querySelector('div.rent').appendChild(list);
-
-    }
-
-     });
-
-    //  end of json rental 

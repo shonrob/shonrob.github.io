@@ -23,10 +23,20 @@ h1, h2, h3, h4, h5, h6 {
 p, li{
     font-family: 'Open Sans', sans-serif;
 }
-a:link {
+a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    color:#3b9ea0;
 }
+a:hover{
+    color: #51D9DB;
+    border:2px dotted #F03A47;
+    border-radius:8px;
+}
+a:visited{
+    text-decoration: underline dotted  #F03A47;
+}
+
 figcaption {
     font-family: 'Open Sans', sans-serif;
 }
@@ -75,6 +85,12 @@ nav ul {
     padding:0; 
     color: #F5EE9E;
 }
+nav .live a{
+    border:3px dotted white;
+    color: white;
+    border-radius:18px;
+    
+}
 
 nav button{ 
     margin-left:5%;
@@ -90,6 +106,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: #51D9DB;
     border:2px dotted #F5EE9E;
+    border-radius:15px;
 }
 nav ul li a{
     display: block;
@@ -99,6 +116,7 @@ nav ul li a{
 nav ul.hide{
     display:none;
 }
+
 
 /* end of nav */
 
@@ -187,9 +205,10 @@ footer a, p{
     background-color: #51D9DB;
     border-radius: 13px;
     font-size: 24px;
-    padding: 8px;
+    padding: 10px;
     border: 2px dotted #F03A47;
     margin:auto;
+    width: 400px;
 }
 .homeGallery{
     display: block;
@@ -285,12 +304,17 @@ form h4{
 }
 /* end of reservation page  */
 /* contact page  */
-.contactUs h4{
-    text-align: left;
+.contactUs div{
+    display: block;
+    text-align: center;
+}
+.contactUs p{
+    font-size: 16px;
 }
 /* end of contact page  */
 /* confirmation pages  */
-.grateful {
+
+.grateful{
     text-align: center;
 }
 .grateful img{
