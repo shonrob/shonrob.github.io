@@ -28,4 +28,13 @@
      .footLink{
          margin-top: 10px;
      }
+     .weatherSummary{
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+    }
+     .homePic{
+        width:900px;
+        margin-left: 200px;
+    }
     } 

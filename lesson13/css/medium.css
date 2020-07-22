@@ -15,11 +15,10 @@ header{
     grid-gap: 7em;
 }
 .weatherSummary{
-    width: fit-content;
+    max-width: 210px;
+    min-width:100px;
     padding: 10px;
     text-align: center;
- 
- 
 }
     /* NAV- ALL PAGES */ 
     nav button{ 
@@ -38,7 +37,8 @@ header{
       padding: .6rem 1rem;
   }
 .homePic{
-    width:150%;
+    width:650px;
+
 }
 .homeGallery{
     display: flex;
