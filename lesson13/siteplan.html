@@ -3,22 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <title>Scoots Rentals</title>
         <meta name="description" content="Creating a website to promote Scoots Rental from the island of Cozumel">
         <link rel="icon" href="images/scootsfavicon.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
     </head>
     <body>
         <header>
-            <a href="home.html"><img src="images/scootslogo.jpg" alt="scoots logo"> </a>
+            <div>
+                <a href="home.html"><img src="images/scootslogo.jpg" alt="scoots logo"> </a>
+            </div>
             <div class="info">
                 <h2>Scoots Rental</h2>
-                <p>  Calle 2 Norte entre 5ta y <br> 10a Avenida Sur #101, Centro<br> 77600 San Miguel de Cozumel<br> Q.R., Mexico <br>  &#9742; 333-333-3333 <br> &#9993; scootsrentals@gmail.com</p>
-            </div>
+                <p> Calle 2 Norte entre 5ta y <br> 10a Avenida Sur #101, Centro<br> 77600 San Miguel de Cozumel<br> Q.R., Mexico <br> &#9742; 333-333-3333 <br> &#9993; scootsrentals@gmail.com</p>
+            </div>       
         </header>
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
@@ -32,13 +34,15 @@
         </nav>
         <main>
             <h2>Site Purpose</h2>
-            <p>Here at Scoots we work to serve you.  We look forward to your time with us here on our Cozumel Island.  Whether you are a local or a tourist we want to encourage you to get around the island with ease, while enjoying our little paradise. Our site provides transportation large and small for your convenience.  We are ready to help serve you as you travel around our beautiful island. </p>
+            <p>Here at Scoots Rental we work to serve you.  We look forward to your time with us here on our Cozumel Island.  Whether you are a local or a tourist we want to encourage you to get around the island with ease, while enjoying our paradise.  Our site provides transportation for one individual or five individuals for your convenience.  We are ready to help serve you as you travel around our beautiful island. We provide great service through transportation but also through our site.  Our site makes reserving your scooter or jeep with ease.  Feel free to leave us comment or inquire if anything arises.  Have a wonderful day!</p>
             <h2>Target Audience</h2>
+            <div class="personas">
             <img src="images/alexandra.jpg">
             <img src="images/mike and joan.jpg"> 
             <img src="images/tommy.jpg">
+            </div>
             <h2>Site Map</h2>
-            <img src="images/site plan.JPG">
+            <img class="siteMap" src="images/siteMap.jpg">
             <h2>Color Scheme</h2>
             <table class="colors">
                 <tbody>
@@ -61,21 +65,32 @@
               </tbody>
               </table>
             <h2>Typography</h2>
-            <h3>Noto Serif: Headers</h3>
-            <p>Open Sans: Paragraph</p>
+            <div class="typo">
+            <h3 >Noto Serif: Headers</h3>
+            <p >Open Sans: Paragraph</p>
+            </div>
+            <h2>Wire Frames</h2>
+            <div class="wireFrame">
+            
+            <img src="images/largeViewport.jpg" alt="large viewport wire frame">
+            <img src="images/mediumViewport.jpg" alt="medium viewport wire frame">
+            <img src="images/smallViewport.jpg" alt="large viewport wire frame">
+            </div>
         </main>
         <footer>
-            <div>
-                <div class="socialMedia">
-                    <p>connect with us</p>
-                    <a href="https://www.facebook.com" target="blank"> <img src="images/iconfinder_BW_Facebook_2_glyph_svg_5305153.png" alt="facebook icon"></a>
-                    <a href="https://www.instagram.com" target="blank"> <img src="images/iconfinder_Instagram_glyph_svg_5335781.png" alt="instagram icon"></a>
-                    <a href="https://www.youtube.com" target="blank"> <img src="images/iconfinder_BW_Youtube_2_glyph_svg_5305165.png" alt="youtube icon"></a>
-                </div>
+            <div class="socialMedia">
+                <p>connect with us</p>
+                <a href="https://www.facebook.com" target="blank"> <img src="images/iconfinder_BW_Facebook_2_glyph_svg_5305153.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com" target="blank"> <img src="images/iconfinder_Instagram_glyph_svg_5335781.png" alt="instagram icon"></a>
+                <a href="https://www.youtube.com" target="blank"> <img src="images/iconfinder_BW_Youtube_2_glyph_svg_5305165.png" alt="youtube icon"></a>
             </div>
-            <p> &copy; 2020 | <a href="">Shonda Robinson</a> | Pennsylvania | BYU I Online Learning <br> <br><a href="resource.html">Resources</a> | <a class="live" href="siteplan.html">Site Plan</a> 
-            </p> 
+            <div class="foot">
+            <p>&copy; 2020</p>Shonda Robinson<p>Pennsylvania<p><span id="time"></span></p>
+            </div>
+            <div class="footLink">
+                <a href="https://www.byui.edu/online">BYU I Online Learning</a><br><a href="resource.html">Resources</a><br><a href="siteplan.html">Site Plan</a> 
+            </div>
         </footer>
-        <script src=""></script>
+        <script src="javascript/home.js"></script>
     </body>
 </html>

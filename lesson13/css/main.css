@@ -179,6 +179,33 @@ footer a, p{
       .colors td{
         height: 10em;
 }
+.personas{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.siteMap{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.typo{
+    display:grid;
+    margin-left:auto;
+    margin-right:auto;
+}
+.typo p{
+    margin-left:auto;
+    margin-right: auto;
+}
+.wireFrame{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 5px;
+}
 /* end of site plan */
 
 /* home page */

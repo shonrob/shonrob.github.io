@@ -62,7 +62,7 @@ function toggleMenu() {
      fetch(rental)
      .then((response) => response.json())
      .then((jsObject) => {
-        console.log(jsObject);
+       // console.log(jsObject);
     
     const rentals = jsObject['rentalOptions'];
   
