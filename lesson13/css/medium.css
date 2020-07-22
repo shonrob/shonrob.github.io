@@ -18,8 +18,7 @@ header{
     width: fit-content;
     padding: 10px;
     text-align: center;
-    grid-template-columns: end;
-    grid-template-rows: 1fr;
+ 
  
 }
     /* NAV- ALL PAGES */ 
@@ -58,7 +57,7 @@ footer{
     display: flex;
     flex-direction: row;
     width: fit-content;
-    grid-template-columns:1;
+    grid-template-columns:1fr;
 }
 /* reservation page  */
 .top select, 
