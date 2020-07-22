@@ -346,6 +346,9 @@ form h4{
 }
 .grateful img{
     width: 300px;
+    border-radius: 25px;
+    background-color:#51D9DB;
+    padding: 5px;
 }
 /* end of confirmation page  */
 /* tour page  */
@@ -378,8 +381,10 @@ form h4{
     background-color: #F5EE9E;
     padding: 3px;
 }
-
 /* end of tour page  */
+
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
